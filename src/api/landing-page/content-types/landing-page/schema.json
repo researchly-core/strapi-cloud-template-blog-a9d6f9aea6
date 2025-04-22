@@ -11,15 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "headline": {
-      "type": "string"
-    },
-    "subheadline": {
-      "type": "string"
-    },
     "SEO": {
       "type": "component",
       "repeatable": false,
@@ -51,6 +42,16 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.text-image-section"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero-section"
+    },
+    "FinalCTASection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta"
     }
   }
 }

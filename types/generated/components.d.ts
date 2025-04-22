@@ -1,5 +1,44 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface SharedCta extends Struct.ComponentSchema {
+  collectionName: 'components_shared_ctas';
+  info: {
+    description: '';
+    displayName: 'CTA-Section';
+  };
+  attributes: {
+    ctaButton: Schema.Attribute.Component<'shared.cta-button', false>;
+    ctaDescription: Schema.Attribute.String;
+    ctaTitle: Schema.Attribute.String;
+  };
+}
+
+export interface SharedCtaButton extends Struct.ComponentSchema {
+  collectionName: 'components_shared_cta_buttons';
+  info: {
+    displayName: 'ctaButton';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+  };
+}
+
+export interface SharedHeroSection extends Struct.ComponentSchema {
+  collectionName: 'components_shared_hero_sections';
+  info: {
+    displayName: 'Hero Section';
+  };
+  attributes: {
+    backgroundImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    CTA: Schema.Attribute.Component<'shared.cta-button', false>;
+    headline: Schema.Attribute.String;
+    subheadline: Schema.Attribute.String;
+  };
+}
+
 export interface SharedInfoCard extends Struct.ComponentSchema {
   collectionName: 'components_shared_info_cards';
   info: {
@@ -90,6 +129,9 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'shared.cta': SharedCta;
+      'shared.cta-button': SharedCtaButton;
+      'shared.hero-section': SharedHeroSection;
       'shared.info-card': SharedInfoCard;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
