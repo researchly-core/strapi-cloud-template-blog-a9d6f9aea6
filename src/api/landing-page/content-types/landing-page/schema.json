@@ -42,10 +42,15 @@
     "callToActionLink": {
       "type": "string"
     },
-    "InfoCard": {
+    "Features": {
       "type": "component",
       "repeatable": true,
       "component": "shared.info-card"
+    },
+    "TextImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-image-section"
     }
   }
 }

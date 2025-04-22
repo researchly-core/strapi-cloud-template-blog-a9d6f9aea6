@@ -554,8 +554,8 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Features: Schema.Attribute.Component<'shared.info-card', true>;
     headline: Schema.Attribute.String;
-    InfoCard: Schema.Attribute.Component<'shared.info-card', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -565,6 +565,7 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     SEO: Schema.Attribute.Component<'shared.seo', false>;
     subheadline: Schema.Attribute.String;
+    TextImage: Schema.Attribute.Component<'shared.text-image-section', true>;
     title: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
