@@ -29,6 +29,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.info-section"
+    },
+    "finalCTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta"
     }
   }
 }

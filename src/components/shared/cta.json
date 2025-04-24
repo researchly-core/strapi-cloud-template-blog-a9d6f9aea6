@@ -12,8 +12,13 @@
     "ctaDescription": {
       "type": "string"
     },
-    "ctaButton": {
+    "primaryCTA": {
       "displayName": "ctaButton",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-button"
+    },
+    "secondaryCTA": {
       "type": "component",
       "repeatable": false,
       "component": "shared.cta-button"

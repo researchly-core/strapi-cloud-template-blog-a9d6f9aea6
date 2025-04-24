@@ -7,9 +7,10 @@ export interface SharedCta extends Struct.ComponentSchema {
     displayName: 'CTA-Section';
   };
   attributes: {
-    ctaButton: Schema.Attribute.Component<'shared.cta-button', false>;
     ctaDescription: Schema.Attribute.String;
     ctaTitle: Schema.Attribute.String;
+    primaryCTA: Schema.Attribute.Component<'shared.cta-button', false>;
+    secondaryCTA: Schema.Attribute.Component<'shared.cta-button', false>;
   };
 }
 
