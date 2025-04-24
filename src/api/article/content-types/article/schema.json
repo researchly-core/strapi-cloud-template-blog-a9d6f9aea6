@@ -56,7 +56,8 @@
     },
     "imagePrompt": {
       "type": "text",
-      "private": true
+      "private": true,
+      "default": "Give me an image:  minimalistisch Illustration, Abstrakte KI-Visualisierung  bläulich-violette Farbwelt  for blog post: \"So findest du mit KI deine wichtigsten Wettbewerber\"  There shouldn't be a person on the image or text. Make it widescreen."
     },
     "SEO": {
       "type": "component",

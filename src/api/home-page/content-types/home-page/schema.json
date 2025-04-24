@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hero-section"
+    },
+    "Products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-image-section"
+    },
+    "firstHeadingAfterHero": {
+      "type": "string"
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.info-section"
+    }
+  }
+}

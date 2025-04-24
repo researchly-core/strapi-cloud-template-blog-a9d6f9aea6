@@ -27,14 +27,15 @@ export interface SharedCtaButton extends Struct.ComponentSchema {
 export interface SharedHeroSection extends Struct.ComponentSchema {
   collectionName: 'components_shared_hero_sections';
   info: {
+    description: '';
     displayName: 'Hero Section';
   };
   attributes: {
-    backgroundImage: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios'
-    >;
-    CTA: Schema.Attribute.Component<'shared.cta-button', false>;
+    bubble: Schema.Attribute.String;
+    HardCTA: Schema.Attribute.Component<'shared.cta-button', false>;
     headline: Schema.Attribute.String;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    SoftCTA: Schema.Attribute.Component<'shared.cta-button', true>;
     subheadline: Schema.Attribute.String;
   };
 }
@@ -42,12 +43,25 @@ export interface SharedHeroSection extends Struct.ComponentSchema {
 export interface SharedInfoCard extends Struct.ComponentSchema {
   collectionName: 'components_shared_info_cards';
   info: {
+    description: '';
     displayName: 'InfoCard';
   };
   attributes: {
     description: Schema.Attribute.Text;
     icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     title: Schema.Attribute.String;
+  };
+}
+
+export interface SharedInfoSection extends Struct.ComponentSchema {
+  collectionName: 'components_shared_info_sections';
+  info: {
+    displayName: 'InfoSection';
+  };
+  attributes: {
+    description: Schema.Attribute.Blocks;
+    headline: Schema.Attribute.String;
+    InfoCard: Schema.Attribute.Component<'shared.info-card', true>;
   };
 }
 
@@ -116,12 +130,14 @@ export interface SharedSlider extends Struct.ComponentSchema {
 export interface SharedTextImageSection extends Struct.ComponentSchema {
   collectionName: 'components_shared_text_image_sections';
   info: {
+    description: '';
     displayName: 'TextImage Section';
   };
   attributes: {
     content: Schema.Attribute.Blocks;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     imagePosition: Schema.Attribute.Enumeration<['left', 'right']>;
+    link_url: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -133,6 +149,7 @@ declare module '@strapi/strapi' {
       'shared.cta-button': SharedCtaButton;
       'shared.hero-section': SharedHeroSection;
       'shared.info-card': SharedInfoCard;
+      'shared.info-section': SharedInfoSection;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;

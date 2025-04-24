@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_hero_sections",
   "info": {
-    "displayName": "Hero Section"
+    "displayName": "Hero Section",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,20 +12,29 @@
     "subheadline": {
       "type": "string"
     },
-    "backgroundImage": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "CTA": {
+    "HardCTA": {
       "type": "component",
       "repeatable": false,
       "component": "shared.cta-button"
+    },
+    "SoftCTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cta-button"
+    },
+    "bubble": {
+      "type": "string"
     }
   }
 }

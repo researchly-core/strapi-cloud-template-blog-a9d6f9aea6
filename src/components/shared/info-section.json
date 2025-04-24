@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_info_sections",
+  "info": {
+    "displayName": "InfoSection"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "InfoCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.info-card"
+    }
+  }
+}
