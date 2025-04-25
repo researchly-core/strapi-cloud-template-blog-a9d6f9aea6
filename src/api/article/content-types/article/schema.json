@@ -51,8 +51,7 @@
         "shared.media",
         "shared.quote",
         "shared.rich-text",
-        "shared.slider",
-        "shared.data-insight"
+        "shared.slider"
       ]
     },
     "imagePrompt": {
