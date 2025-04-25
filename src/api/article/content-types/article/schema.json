@@ -64,8 +64,10 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "AuthorsNote": {
-      "type": "blocks"
+    "authorsNote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.authors-note"
     }
   }
 }

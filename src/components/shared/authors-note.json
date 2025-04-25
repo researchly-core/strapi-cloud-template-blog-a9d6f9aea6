@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_authors_notes",
+  "info": {
+    "displayName": "AuthorsNote"
+  },
+  "options": {},
+  "attributes": {
+    "Note": {
+      "type": "blocks"
+    },
+    "Author": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
