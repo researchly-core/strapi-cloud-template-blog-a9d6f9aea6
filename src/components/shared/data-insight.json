@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_data_insights",
+  "info": {
+    "displayName": "data-insight"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    },
+    "insight": {
+      "type": "blocks"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

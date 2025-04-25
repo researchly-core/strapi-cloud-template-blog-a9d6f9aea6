@@ -25,6 +25,18 @@ export interface SharedCtaButton extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedDataInsight extends Struct.ComponentSchema {
+  collectionName: 'components_shared_data_insights';
+  info: {
+    displayName: 'data-insight';
+  };
+  attributes: {
+    data: Schema.Attribute.JSON;
+    description: Schema.Attribute.String;
+    insight: Schema.Attribute.Blocks;
+  };
+}
+
 export interface SharedHeroSection extends Struct.ComponentSchema {
   collectionName: 'components_shared_hero_sections';
   info: {
@@ -148,6 +160,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'shared.cta': SharedCta;
       'shared.cta-button': SharedCtaButton;
+      'shared.data-insight': SharedDataInsight;
       'shared.hero-section': SharedHeroSection;
       'shared.info-card': SharedInfoCard;
       'shared.info-section': SharedInfoSection;
