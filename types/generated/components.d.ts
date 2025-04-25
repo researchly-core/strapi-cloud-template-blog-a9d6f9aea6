@@ -36,6 +36,16 @@ export interface SharedCtaButton extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedFlourishLink extends Struct.ComponentSchema {
+  collectionName: 'components_shared_flourish_links';
+  info: {
+    displayName: 'flourishLink';
+  };
+  attributes: {
+    flourish: Schema.Attribute.String;
+  };
+}
+
 export interface SharedHeroSection extends Struct.ComponentSchema {
   collectionName: 'components_shared_hero_sections';
   info: {
@@ -160,6 +170,7 @@ declare module '@strapi/strapi' {
       'shared.authors-note': SharedAuthorsNote;
       'shared.cta': SharedCta;
       'shared.cta-button': SharedCtaButton;
+      'shared.flourish-link': SharedFlourishLink;
       'shared.hero-section': SharedHeroSection;
       'shared.info-card': SharedInfoCard;
       'shared.info-section': SharedInfoSection;

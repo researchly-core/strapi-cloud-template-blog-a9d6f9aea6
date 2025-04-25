@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_flourish_links",
+  "info": {
+    "displayName": "flourishLink"
+  },
+  "options": {},
+  "attributes": {
+    "flourish": {
+      "type": "string"
+    }
+  }
+}
