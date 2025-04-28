@@ -36,6 +36,18 @@ export interface SharedCtaButton extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedFaq extends Struct.ComponentSchema {
+  collectionName: 'components_shared_faqs';
+  info: {
+    displayName: 'FAQ';
+    icon: 'question';
+  };
+  attributes: {
+    Answer: Schema.Attribute.Blocks;
+    Question: Schema.Attribute.String;
+  };
+}
+
 export interface SharedFlourishLink extends Struct.ComponentSchema {
   collectionName: 'components_shared_flourish_links';
   info: {
@@ -170,6 +182,7 @@ declare module '@strapi/strapi' {
       'shared.authors-note': SharedAuthorsNote;
       'shared.cta': SharedCta;
       'shared.cta-button': SharedCtaButton;
+      'shared.faq': SharedFaq;
       'shared.flourish-link': SharedFlourishLink;
       'shared.hero-section': SharedHeroSection;
       'shared.info-card': SharedInfoCard;

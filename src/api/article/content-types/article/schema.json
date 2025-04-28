@@ -69,6 +69,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.authors-note"
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faq"
     }
   }
 }
