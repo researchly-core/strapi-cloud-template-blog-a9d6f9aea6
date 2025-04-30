@@ -59,11 +59,6 @@
         "shared.flourish-link"
       ]
     },
-    "imagePrompt": {
-      "type": "text",
-      "private": true,
-      "default": "Give me an image:  minimalistisch Illustration, Abstrakte KI-Visualisierung  bläulich-violette Farbwelt  for blog post: \"So findest du mit KI deine wichtigsten Wettbewerber\"  There shouldn't be a person on the image or text. Make it widescreen."
-    },
     "SEO": {
       "type": "component",
       "repeatable": false,
@@ -78,6 +73,16 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.faq"
+    },
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "writable": true,
+      "configurable": false,
+      "editable": false,
+      "visible": true,
+      "unique": true
     }
   }
 }

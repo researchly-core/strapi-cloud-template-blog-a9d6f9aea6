@@ -449,9 +449,6 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
         maxLength: 80;
       }>;
     FAQ: Schema.Attribute.Component<'shared.faq', true>;
-    imagePrompt: Schema.Attribute.Text &
-      Schema.Attribute.Private &
-      Schema.Attribute.DefaultTo<'Give me an image:  minimalistisch Illustration, Abstrakte KI-Visualisierung  bl\u00E4ulich-violette Farbwelt  for blog post: "So findest du mit KI deine wichtigsten Wettbewerber"  There shouldn\'t be a person on the image or text. Make it widescreen.'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

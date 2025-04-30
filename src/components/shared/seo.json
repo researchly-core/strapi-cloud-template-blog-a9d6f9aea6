@@ -20,7 +20,14 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "seo_keyword": {
+      "type": "string",
+      "required": false,
+      "private": true
     }
   }
 }
