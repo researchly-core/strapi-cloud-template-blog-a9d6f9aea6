@@ -53,5 +53,10 @@
       "repeatable": false,
       "component": "shared.cta"
     }
+  },
+  "pluginOptions": {
+    "webtools": {
+      "enabled": true
+    }
   }
 }
