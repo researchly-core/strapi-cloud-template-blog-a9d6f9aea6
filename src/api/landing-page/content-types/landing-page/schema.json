@@ -16,6 +16,16 @@
     }
   },
   "attributes": {
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "writable": true,
+      "configurable": false,
+      "editable": false,
+      "visible": true,
+      "unique": true
+    },
     "SEO": {
       "type": "component",
       "repeatable": false,
@@ -58,20 +68,15 @@
       "repeatable": false,
       "component": "shared.cta"
     },
-    "url_alias": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::webtools.url-alias",
-      "writable": true,
-      "configurable": false,
-      "editable": false,
-      "visible": true,
-      "unique": true
-    },
     "Features": {
       "type": "component",
       "repeatable": false,
       "component": "shared.features"
+    },
+    "Products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-image-section"
     }
   }
 }
