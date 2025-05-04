@@ -10,6 +10,11 @@
   "options": {
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "webtools": {
+      "enabled": true
+    }
+  },
   "attributes": {
     "SEO": {
       "type": "component",
@@ -33,7 +38,7 @@
     "callToActionLink": {
       "type": "string"
     },
-    "Features": {
+    "FeaturesALT": {
       "type": "component",
       "repeatable": true,
       "component": "shared.info-card"
@@ -52,11 +57,21 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.cta"
-    }
-  },
-  "pluginOptions": {
-    "webtools": {
-      "enabled": true
+    },
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "writable": true,
+      "configurable": false,
+      "editable": false,
+      "visible": true,
+      "unique": true
+    },
+    "Features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.features"
     }
   }
 }
