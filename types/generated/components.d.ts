@@ -179,7 +179,7 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
   collectionName: 'components_shared_text_image_sections';
   info: {
     description: '';
-    displayName: 'TextImage Section';
+    displayName: 'Product';
   };
   attributes: {
     content: Schema.Attribute.Blocks;
