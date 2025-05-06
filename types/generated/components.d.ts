@@ -123,6 +123,27 @@ export interface SharedMedia extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedMenu extends Struct.ComponentSchema {
+  collectionName: 'components_shared_menus';
+  info: {
+    displayName: 'menu';
+  };
+  attributes: {
+    menu_item: Schema.Attribute.Component<'shared.menu-item', true>;
+  };
+}
+
+export interface SharedMenuItem extends Struct.ComponentSchema {
+  collectionName: 'components_shared_menu_items';
+  info: {
+    displayName: 'menu_item';
+  };
+  attributes: {
+    menu_item_link: Schema.Attribute.String;
+    menu_item_title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedQuote extends Struct.ComponentSchema {
   collectionName: 'components_shared_quotes';
   info: {
@@ -203,6 +224,8 @@ declare module '@strapi/strapi' {
       'shared.info-card': SharedInfoCard;
       'shared.info-section': SharedInfoSection;
       'shared.media': SharedMedia;
+      'shared.menu': SharedMenu;
+      'shared.menu-item': SharedMenuItem;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;

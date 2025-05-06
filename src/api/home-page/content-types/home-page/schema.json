@@ -38,6 +38,21 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.cta"
+    },
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "writable": true,
+      "configurable": false,
+      "editable": false,
+      "visible": true,
+      "unique": true
+    },
+    "Menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu"
     }
   }
 }

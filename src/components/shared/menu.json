@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_menus",
+  "info": {
+    "displayName": "menu"
+  },
+  "options": {},
+  "attributes": {
+    "menu_item": {
+      "displayName": "menu_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-item"
+    }
+  }
+}
