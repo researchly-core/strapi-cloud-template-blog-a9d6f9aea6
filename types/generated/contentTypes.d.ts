@@ -695,7 +695,9 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     sitemap_exclude: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
+    slug: Schema.Attribute.UID<'title'>;
     TextImage: Schema.Attribute.Component<'shared.text-image-section', true>;
+    title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

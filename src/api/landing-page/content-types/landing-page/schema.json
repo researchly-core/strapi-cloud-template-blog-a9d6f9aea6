@@ -77,6 +77,13 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.text-image-section"
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
