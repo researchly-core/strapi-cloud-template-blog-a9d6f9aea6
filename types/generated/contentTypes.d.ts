@@ -675,13 +675,10 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     backgroundImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
-    callToActionLabel: Schema.Attribute.String;
-    callToActionLink: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     Features: Schema.Attribute.Component<'shared.features', false>;
-    FeaturesALT: Schema.Attribute.Component<'shared.info-card', true>;
     FinalCTASection: Schema.Attribute.Component<'shared.cta', false>;
     Hero: Schema.Attribute.Component<'shared.hero-section', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -697,7 +694,6 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
     slug: Schema.Attribute.UID<'title'>;
-    TextImage: Schema.Attribute.Component<'shared.text-image-section', true>;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

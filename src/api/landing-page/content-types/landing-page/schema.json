@@ -42,22 +42,6 @@
         "audios"
       ]
     },
-    "callToActionLabel": {
-      "type": "string"
-    },
-    "callToActionLink": {
-      "type": "string"
-    },
-    "FeaturesALT": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.info-card"
-    },
-    "TextImage": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.text-image-section"
-    },
     "Hero": {
       "type": "component",
       "repeatable": false,
