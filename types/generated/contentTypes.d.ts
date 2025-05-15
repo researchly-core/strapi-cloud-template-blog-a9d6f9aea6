@@ -597,6 +597,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
     siteName: Schema.Attribute.String & Schema.Attribute.Required;
+    socials: Schema.Attribute.Component<'shared.menu-item', true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -645,6 +646,7 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
     sitemap_exclude: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
+    testimonials: Schema.Attribute.Component<'shared.testimonials', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
