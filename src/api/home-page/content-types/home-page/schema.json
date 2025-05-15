@@ -68,6 +68,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.faq"
+    },
+    "Insights": {
+      "displayName": "Insights",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insights"
     }
   }
 }

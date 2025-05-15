@@ -112,6 +112,16 @@ export interface SharedInfoSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedInsights extends Struct.ComponentSchema {
+  collectionName: 'components_shared_insights';
+  info: {
+    displayName: 'Insights';
+  };
+  attributes: {
+    publication_id: Schema.Attribute.String;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -234,6 +244,7 @@ declare module '@strapi/strapi' {
       'shared.hero-section': SharedHeroSection;
       'shared.info-card': SharedInfoCard;
       'shared.info-section': SharedInfoSection;
+      'shared.insights': SharedInsights;
       'shared.media': SharedMedia;
       'shared.menu': SharedMenu;
       'shared.menu-item': SharedMenuItem;

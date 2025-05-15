@@ -634,6 +634,7 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
     finalCTA: Schema.Attribute.Component<'shared.cta', true>;
     firstHeadingAfterHero: Schema.Attribute.String;
     Hero: Schema.Attribute.Component<'shared.hero-section', false>;
+    Insights: Schema.Attribute.Component<'shared.insights', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

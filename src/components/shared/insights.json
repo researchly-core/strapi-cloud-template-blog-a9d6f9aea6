@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_insights",
+  "info": {
+    "displayName": "Insights"
+  },
+  "options": {},
+  "attributes": {
+    "publication_id": {
+      "type": "string"
+    }
+  }
+}
