@@ -629,6 +629,7 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    FAQ: Schema.Attribute.Component<'shared.faq', false>;
     Features: Schema.Attribute.Component<'shared.info-section', true>;
     finalCTA: Schema.Attribute.Component<'shared.cta', true>;
     firstHeadingAfterHero: Schema.Attribute.String;

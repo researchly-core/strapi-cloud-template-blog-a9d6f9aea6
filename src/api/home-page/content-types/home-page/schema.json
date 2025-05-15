@@ -63,6 +63,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.testimonials"
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.faq"
     }
   }
 }
