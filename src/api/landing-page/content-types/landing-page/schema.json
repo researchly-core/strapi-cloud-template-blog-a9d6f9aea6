@@ -68,6 +68,11 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "Sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.section"
     }
   }
 }
