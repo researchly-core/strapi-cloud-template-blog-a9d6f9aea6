@@ -240,7 +240,7 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
   attributes: {
     content: Schema.Attribute.Blocks;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    imagePosition: Schema.Attribute.Enumeration<['left', 'right']>;
+    imagePosition: Schema.Attribute.Enumeration<['left', 'right', 'stacked']>;
     link_url: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };

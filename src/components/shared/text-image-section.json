@@ -27,7 +27,8 @@
       "type": "enumeration",
       "enum": [
         "left",
-        "right"
+        "right",
+        "stacked"
       ]
     },
     "link_url": {
