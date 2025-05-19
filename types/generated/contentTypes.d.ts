@@ -686,6 +686,7 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     Features: Schema.Attribute.Component<'shared.features', false>;
     FinalCTASection: Schema.Attribute.Component<'shared.cta', false>;
     Hero: Schema.Attribute.Component<'shared.hero-section', false>;
+    InsightsCard: Schema.Attribute.Component<'shared.insightscard', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

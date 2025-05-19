@@ -122,6 +122,23 @@ export interface SharedInsights extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedInsightscard extends Struct.ComponentSchema {
+  collectionName: 'components_shared_insightscards';
+  info: {
+    description: '';
+    displayName: 'Insightscard';
+  };
+  attributes: {
+    Category: Schema.Attribute.String;
+    Description: Schema.Attribute.Text;
+    Image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    Title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -259,6 +276,7 @@ declare module '@strapi/strapi' {
       'shared.info-card': SharedInfoCard;
       'shared.info-section': SharedInfoSection;
       'shared.insights': SharedInsights;
+      'shared.insightscard': SharedInsightscard;
       'shared.media': SharedMedia;
       'shared.menu': SharedMenu;
       'shared.menu-item': SharedMenuItem;
