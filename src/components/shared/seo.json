@@ -26,8 +26,7 @@
     },
     "seo_keyword": {
       "type": "string",
-      "required": false,
-      "private": true
+      "required": false
     }
   }
 }

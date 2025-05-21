@@ -220,7 +220,7 @@ export interface SharedSeo extends Struct.ComponentSchema {
   attributes: {
     metaDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     metaTitle: Schema.Attribute.String & Schema.Attribute.Required;
-    seo_keyword: Schema.Attribute.String & Schema.Attribute.Private;
+    seo_keyword: Schema.Attribute.String;
     shareImage: Schema.Attribute.Media<'images'>;
   };
 }
