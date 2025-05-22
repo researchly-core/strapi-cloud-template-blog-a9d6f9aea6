@@ -683,6 +683,7 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    FAQ: Schema.Attribute.Component<'shared.faq', false>;
     Features: Schema.Attribute.Component<'shared.features', false>;
     FinalCTASection: Schema.Attribute.Component<'shared.cta', false>;
     Hero: Schema.Attribute.Component<'shared.hero-section', false>;
