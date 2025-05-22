@@ -695,7 +695,6 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
       'api::landing-page.landing-page'
     > &
       Schema.Attribute.Private;
-    Products: Schema.Attribute.Component<'shared.text-image-section', true>;
     publishedAt: Schema.Attribute.DateTime;
     Sections: Schema.Attribute.Component<'shared.section', true>;
     SEO: Schema.Attribute.Component<'shared.seo', false>;
