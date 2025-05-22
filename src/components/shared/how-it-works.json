@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_how_it_works",
+  "info": {
+    "displayName": "how it works"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "step": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-image-section"
+    }
+  }
+}

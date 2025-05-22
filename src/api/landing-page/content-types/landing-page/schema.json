@@ -78,6 +78,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.insightscard"
+    },
+    "how_it_works": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.how-it-works"
     }
   }
 }

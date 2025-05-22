@@ -87,6 +87,18 @@ export interface SharedHeroSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedHowItWorks extends Struct.ComponentSchema {
+  collectionName: 'components_shared_how_it_works';
+  info: {
+    displayName: 'how it works';
+  };
+  attributes: {
+    step: Schema.Attribute.Component<'shared.text-image-section', true>;
+    subtitle: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedInfoCard extends Struct.ComponentSchema {
   collectionName: 'components_shared_info_cards';
   info: {
@@ -274,6 +286,7 @@ declare module '@strapi/strapi' {
       'shared.features': SharedFeatures;
       'shared.flourish-link': SharedFlourishLink;
       'shared.hero-section': SharedHeroSection;
+      'shared.how-it-works': SharedHowItWorks;
       'shared.info-card': SharedInfoCard;
       'shared.info-section': SharedInfoSection;
       'shared.insights': SharedInsights;
