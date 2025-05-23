@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_holder_1s",
+  "info": {
+    "displayName": "holder_1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "use_case_title": {
+      "type": "string"
+    },
+    "use_case_description": {
+      "type": "text"
+    }
+  }
+}

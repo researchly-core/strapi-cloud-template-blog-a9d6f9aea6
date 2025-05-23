@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_uscs",
+  "info": {
+    "displayName": "usc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "use_case_category_name": {
+      "type": "string"
+    },
+    "use_case_container": {
+      "displayName": "holder_1",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.holder-1"
+    }
+  }
+}

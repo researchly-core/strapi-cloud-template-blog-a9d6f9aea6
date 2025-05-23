@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_use_cases",
+  "info": {
+    "displayName": "use_case",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "use_case_category": {
+      "displayName": "usc",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.usc"
+    }
+  }
+}

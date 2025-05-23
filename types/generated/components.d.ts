@@ -87,6 +87,29 @@ export interface SharedHeroSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedHolder extends Struct.ComponentSchema {
+  collectionName: 'components_shared_holders';
+  info: {
+    displayName: 'holder';
+  };
+  attributes: {
+    desc: Schema.Attribute.String;
+    test: Schema.Attribute.String;
+  };
+}
+
+export interface SharedHolder1 extends Struct.ComponentSchema {
+  collectionName: 'components_shared_holder_1s';
+  info: {
+    description: '';
+    displayName: 'holder_1';
+  };
+  attributes: {
+    use_case_description: Schema.Attribute.Text;
+    use_case_title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedHowItWorks extends Struct.ComponentSchema {
   collectionName: 'components_shared_how_it_works';
   info: {
@@ -276,6 +299,29 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedUsc extends Struct.ComponentSchema {
+  collectionName: 'components_shared_uscs';
+  info: {
+    description: '';
+    displayName: 'usc';
+  };
+  attributes: {
+    use_case_category_name: Schema.Attribute.String;
+    use_case_container: Schema.Attribute.Component<'shared.holder-1', true>;
+  };
+}
+
+export interface SharedUseCase extends Struct.ComponentSchema {
+  collectionName: 'components_shared_use_cases';
+  info: {
+    description: '';
+    displayName: 'use_case';
+  };
+  attributes: {
+    use_case_category: Schema.Attribute.Component<'shared.usc', true>;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -286,6 +332,8 @@ declare module '@strapi/strapi' {
       'shared.features': SharedFeatures;
       'shared.flourish-link': SharedFlourishLink;
       'shared.hero-section': SharedHeroSection;
+      'shared.holder': SharedHolder;
+      'shared.holder-1': SharedHolder1;
       'shared.how-it-works': SharedHowItWorks;
       'shared.info-card': SharedInfoCard;
       'shared.info-section': SharedInfoSection;
@@ -301,6 +349,8 @@ declare module '@strapi/strapi' {
       'shared.slider': SharedSlider;
       'shared.testimonials': SharedTestimonials;
       'shared.text-image-section': SharedTextImageSection;
+      'shared.usc': SharedUsc;
+      'shared.use-case': SharedUseCase;
     }
   }
 }

@@ -83,6 +83,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.faq"
+    },
+    "use_cases": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.use-case"
     }
   }
 }

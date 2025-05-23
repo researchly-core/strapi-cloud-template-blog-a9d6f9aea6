@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_holders",
+  "info": {
+    "displayName": "holder"
+  },
+  "options": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}
