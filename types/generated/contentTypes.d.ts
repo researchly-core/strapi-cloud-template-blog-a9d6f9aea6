@@ -657,6 +657,7 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
       'plugin::webtools.url-alias'
     > &
       Schema.Attribute.Unique;
+    use_cases: Schema.Attribute.Component<'shared.use-case', false>;
   };
 }
 
