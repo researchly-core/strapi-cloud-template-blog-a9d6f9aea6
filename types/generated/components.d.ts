@@ -261,7 +261,7 @@ export interface SharedSeo extends Struct.ComponentSchema {
     metaTitle: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.SetMinMaxLength<{
-        maxLength: 50;
+        maxLength: 60;
       }>;
     pillar_id: Schema.Attribute.String;
     seo_keyword: Schema.Attribute.String;
