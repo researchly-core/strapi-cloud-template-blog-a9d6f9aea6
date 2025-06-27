@@ -27,11 +27,12 @@
       "unique": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 50
     },
     "description": {
       "type": "text",
-      "maxLength": 80
+      "maxLength": 150
     },
     "slug": {
       "type": "uid",
