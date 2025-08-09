@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_pricing_blocks",
+  "info": {
+    "displayName": "pricing_block"
+  },
+  "options": {},
+  "attributes": {
+    "pricing_plan_name": {
+      "type": "string"
+    },
+    "pricing_plan_price": {
+      "type": "string"
+    },
+    "pricing_plan_features": {
+      "type": "blocks"
+    }
+  }
+}

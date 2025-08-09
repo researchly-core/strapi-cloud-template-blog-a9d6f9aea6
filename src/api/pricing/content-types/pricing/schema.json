@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pricing_plan": {
+      "displayName": "pricing_block",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.pricing-block"
+    }
+  }
+}
