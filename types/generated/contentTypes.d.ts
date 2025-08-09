@@ -722,6 +722,7 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
 export interface ApiPricingPricing extends Struct.CollectionTypeSchema {
   collectionName: 'pricings';
   info: {
+    description: '';
     displayName: 'Pricing';
     pluralName: 'pricings';
     singularName: 'pricing';
@@ -743,7 +744,7 @@ export interface ApiPricingPricing extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::pricing.pricing'
     >;
-    pricing_plan: Schema.Attribute.Component<'shared.pricing-block', false>;
+    pricing_plan: Schema.Attribute.Component<'shared.pricing-block', true>;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

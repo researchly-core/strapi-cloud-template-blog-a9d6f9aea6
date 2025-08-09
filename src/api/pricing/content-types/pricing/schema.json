@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pricing",
     "pluralName": "pricings",
-    "displayName": "Pricing"
+    "displayName": "Pricing",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,7 @@
     "pricing_plan": {
       "displayName": "pricing_block",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "shared.pricing-block"
     }
   }
