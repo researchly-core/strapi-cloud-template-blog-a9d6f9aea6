@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.11.0",
-    "@strapi/plugin-users-permissions": "5.11.0",
-    "@strapi/strapi": "5.11.0",
+    "@strapi/plugin-users-permissions": "^5.22.0",
+    "@strapi/strapi": "^5.22.0",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
@@ -22,6 +22,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "strapi-plugin-webtools": "^1.4.1",
+    "strapi-v5-redirects": "^1.0.3",
     "styled-components": "^6.0.0",
     "webtools-addon-sitemap": "^1.2.1"
   },
