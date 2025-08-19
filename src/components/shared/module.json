@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_modules",
+  "info": {
+    "displayName": "module",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "modul": {
+      "type": "component",
+      "component": "shared.text-image-section",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -28,57 +28,61 @@
     },
     "Hero": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.hero-section"
+      "component": "shared.hero-section",
+      "repeatable": false
     },
     "Products": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.text-image-section"
+      "component": "shared.text-image-section",
+      "repeatable": true
     },
     "firstHeadingAfterHero": {
       "type": "string"
     },
     "Features": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.info-section"
+      "component": "shared.info-section",
+      "repeatable": true
     },
     "finalCTA": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.cta"
+      "component": "shared.cta",
+      "repeatable": true
     },
     "Menu": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.menu"
+      "component": "shared.menu",
+      "repeatable": true
     },
     "SEO": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "repeatable": false
     },
     "testimonials": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.testimonials"
+      "component": "shared.testimonials",
+      "repeatable": false
     },
     "FAQ": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.faq"
+      "component": "shared.faq",
+      "repeatable": true
     },
     "Insights": {
-      "displayName": "Insights",
       "type": "component",
-      "repeatable": true,
-      "component": "shared.insights"
+      "component": "shared.insights",
+      "repeatable": true
     },
     "use_cases": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.use-case"
+      "component": "shared.use-case",
+      "repeatable": false
+    },
+    "module": {
+      "type": "component",
+      "component": "shared.module",
+      "repeatable": false
     }
   }
 }

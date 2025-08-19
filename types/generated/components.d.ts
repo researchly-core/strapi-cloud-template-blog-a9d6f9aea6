@@ -206,6 +206,17 @@ export interface SharedMenuItem extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedModule extends Struct.ComponentSchema {
+  collectionName: 'components_shared_modules';
+  info: {
+    displayName: 'module';
+    icon: 'apps';
+  };
+  attributes: {
+    modul: Schema.Attribute.Component<'shared.text-image-section', true>;
+  };
+}
+
 export interface SharedPricingBlock extends Struct.ComponentSchema {
   collectionName: 'components_shared_pricing_blocks';
   info: {
@@ -362,6 +373,7 @@ declare module '@strapi/strapi' {
       'shared.media': SharedMedia;
       'shared.menu': SharedMenu;
       'shared.menu-item': SharedMenuItem;
+      'shared.module': SharedModule;
       'shared.pricing-block': SharedPricingBlock;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
