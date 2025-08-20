@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_pricings",
+  "info": {
+    "displayName": "pricing"
+  },
+  "options": {},
+  "attributes": {
+    "pricing_block": {
+      "type": "component",
+      "component": "shared.pricing-block",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

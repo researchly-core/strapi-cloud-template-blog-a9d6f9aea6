@@ -88,6 +88,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::article.article"
+    },
+    "pricing_specifc": {
+      "type": "component",
+      "component": "shared.pricing",
+      "repeatable": true
     }
   }
 }
