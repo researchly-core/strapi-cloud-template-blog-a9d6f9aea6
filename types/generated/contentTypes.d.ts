@@ -652,6 +652,10 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
     module: Schema.Attribute.Component<'shared.module', false>;
     Products: Schema.Attribute.Component<'shared.text-image-section', true>;
     publishedAt: Schema.Attribute.DateTime;
+    related_articles: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::article.article'
+    >;
     SEO: Schema.Attribute.Component<'shared.seo', false>;
     sitemap_exclude: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
