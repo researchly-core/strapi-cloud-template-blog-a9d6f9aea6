@@ -1,1 +1,5 @@
-module.exports = () => ({});
+module.exports = ({ env }) => ({
+    redirects: {
+      enabled: true,
+    },
+  });
