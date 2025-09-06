@@ -28,11 +28,11 @@
     },
     "title": {
       "type": "string",
-      "maxLength": 60
+      "default": "recommendation: 60 characters"
     },
     "description": {
       "type": "text",
-      "maxLength": 150
+      "default": "recommended: 150 characters"
     },
     "slug": {
       "type": "uid",
@@ -72,18 +72,18 @@
     },
     "SEO": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "repeatable": false
     },
     "authorsNote": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.authors-note"
+      "component": "shared.authors-note",
+      "repeatable": false
     },
     "FAQ": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.faq"
+      "component": "shared.faq",
+      "repeatable": true
     }
   }
 }
