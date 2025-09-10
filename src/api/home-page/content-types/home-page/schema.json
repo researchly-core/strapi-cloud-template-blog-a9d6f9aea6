@@ -93,6 +93,11 @@
       "type": "component",
       "component": "shared.pricing",
       "repeatable": true
+    },
+    "process": {
+      "type": "component",
+      "component": "shared.how-it-works",
+      "repeatable": false
     }
   }
 }

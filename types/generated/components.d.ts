@@ -105,6 +105,7 @@ export interface SharedHolder1 extends Struct.ComponentSchema {
     displayName: 'holder_1';
   };
   attributes: {
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     use_case_description: Schema.Attribute.Text;
     use_case_title: Schema.Attribute.String;
   };
@@ -336,6 +337,7 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     imagePosition: Schema.Attribute.Enumeration<['left', 'right', 'stacked']>;
     link_url: Schema.Attribute.String;
+    step_number: Schema.Attribute.Integer;
     title: Schema.Attribute.String;
   };
 }

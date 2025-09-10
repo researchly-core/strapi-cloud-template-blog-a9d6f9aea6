@@ -647,6 +647,7 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
     Menu: Schema.Attribute.Component<'shared.menu', true>;
     module: Schema.Attribute.Component<'shared.module', false>;
     pricing_specifc: Schema.Attribute.Component<'shared.pricing', true>;
+    process: Schema.Attribute.Component<'shared.how-it-works', false>;
     Products: Schema.Attribute.Component<'shared.text-image-section', true>;
     publishedAt: Schema.Attribute.DateTime;
     related_articles: Schema.Attribute.Relation<
