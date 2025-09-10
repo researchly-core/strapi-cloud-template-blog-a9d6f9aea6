@@ -106,6 +106,7 @@ export interface SharedHolder1 extends Struct.ComponentSchema {
   };
   attributes: {
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    link: Schema.Attribute.String;
     use_case_description: Schema.Attribute.Text;
     use_case_title: Schema.Attribute.String;
   };
