@@ -10,13 +10,13 @@
   "attributes": {
     "metaTitle": {
       "type": "string",
-      "required": true,
-      "maxLength": 60
+      "default": "rec. 60 char.",
+      "required": true
     },
     "metaDescription": {
       "type": "text",
-      "required": true,
-      "maxLength": 150
+      "default": "rec. 150 char.",
+      "required": true
     },
     "shareImage": {
       "type": "media",
