@@ -36,6 +36,12 @@
     },
     "step_number": {
       "type": "integer"
+    },
+    "cta_secondary_text": {
+      "type": "string"
+    },
+    "cta_primary_text": {
+      "type": "string"
     }
   }
 }

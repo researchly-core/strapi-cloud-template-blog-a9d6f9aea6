@@ -331,6 +331,8 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
   };
   attributes: {
     content: Schema.Attribute.Blocks;
+    cta_primary_text: Schema.Attribute.String;
+    cta_secondary_text: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     imagePosition: Schema.Attribute.Enumeration<['left', 'right', 'stacked']>;
     link_url: Schema.Attribute.String;
