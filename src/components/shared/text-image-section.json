@@ -31,17 +31,18 @@
         "stacked"
       ]
     },
-    "link_url": {
-      "type": "string"
-    },
     "step_number": {
       "type": "integer"
     },
-    "cta_secondary_text": {
-      "type": "string"
+    "primary_cta": {
+      "type": "component",
+      "component": "shared.cta-button",
+      "repeatable": true
     },
-    "cta_primary_text": {
-      "type": "string"
+    "secondary_cta": {
+      "type": "component",
+      "component": "shared.cta-button",
+      "repeatable": false
     }
   }
 }
