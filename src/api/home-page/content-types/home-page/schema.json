@@ -37,7 +37,7 @@
       "repeatable": true
     },
     "firstHeadingAfterHero": {
-      "type": "string"
+      "type": "text"
     },
     "Features": {
       "type": "component",

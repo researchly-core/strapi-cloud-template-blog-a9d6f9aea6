@@ -449,8 +449,9 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.Text &
-      Schema.Attribute.DefaultTo<'recommended: 150 characters'>;
+      Schema.Attribute.DefaultTo<'give me a short summary for my blog post: Give a clear 1-3 sentence answer in simple language. Format like a featured snippet. Optional: add a relevant internal link.'>;
     FAQ: Schema.Attribute.Component<'shared.faq', true>;
+    language: Schema.Attribute.Enumeration<['de-DE', 'en-US']>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -635,7 +636,7 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
     FAQ: Schema.Attribute.Component<'shared.faq', true>;
     Features: Schema.Attribute.Component<'shared.info-section', true>;
     finalCTA: Schema.Attribute.Component<'shared.cta', true>;
-    firstHeadingAfterHero: Schema.Attribute.String;
+    firstHeadingAfterHero: Schema.Attribute.Text;
     Hero: Schema.Attribute.Component<'shared.hero-section', false>;
     Insights: Schema.Attribute.Component<'shared.insights', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
