@@ -43,6 +43,9 @@
       "type": "component",
       "component": "shared.cta-button",
       "repeatable": false
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

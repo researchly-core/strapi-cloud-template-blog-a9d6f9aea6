@@ -337,6 +337,7 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
     secondary_cta: Schema.Attribute.Component<'shared.cta-button', false>;
     step_number: Schema.Attribute.Integer;
     title: Schema.Attribute.String;
+    url: Schema.Attribute.String;
   };
 }
 
