@@ -176,6 +176,17 @@ export interface SharedInsightscard extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedLanguagePicker extends Struct.ComponentSchema {
+  collectionName: 'components_shared_language_pickers';
+  info: {
+    displayName: 'Language Picker';
+  };
+  attributes: {
+    languages: Schema.Attribute.Enumeration<['de-DE', 'en-US']> &
+      Schema.Attribute.DefaultTo<'de-DE'>;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -381,6 +392,7 @@ declare module '@strapi/strapi' {
       'shared.info-section': SharedInfoSection;
       'shared.insights': SharedInsights;
       'shared.insightscard': SharedInsightscard;
+      'shared.language-picker': SharedLanguagePicker;
       'shared.media': SharedMedia;
       'shared.menu': SharedMenu;
       'shared.menu-item': SharedMenuItem;

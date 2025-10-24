@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agentic_workflow_templates",
+  "info": {
+    "singularName": "agentic-workflow-template",
+    "pluralName": "agentic-workflow-templates",
+    "displayName": "Agentic Workflow Template"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    },
+    "webtools": {
+      "enabled": true
+    }
+  },
+  "attributes": {
+    "SEO": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "Steps": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.how-it-works",
+      "repeatable": false
+    },
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "configurable": false
+    },
+    "Language": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.language-picker",
+      "repeatable": false
+    }
+  }
+}

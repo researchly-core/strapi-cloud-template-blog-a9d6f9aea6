@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_language_pickers",
+  "info": {
+    "displayName": "Language Picker"
+  },
+  "options": {},
+  "attributes": {
+    "languages": {
+      "type": "enumeration",
+      "default": "de-DE",
+      "enum": [
+        "de-DE",
+        "en-US"
+      ]
+    }
+  },
+  "config": {}
+}
