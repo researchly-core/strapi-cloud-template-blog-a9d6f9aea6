@@ -24,6 +24,14 @@
       "target": "plugin::webtools.url-alias",
       "configurable": false
     },
+    "Title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "SEO": {
       "type": "component",
       "pluginOptions": {
@@ -42,16 +50,6 @@
         }
       },
       "component": "shared.how-it-works",
-      "repeatable": false
-    },
-    "Language": {
-      "type": "component",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.language-picker",
       "repeatable": false
     },
     "slug": {
