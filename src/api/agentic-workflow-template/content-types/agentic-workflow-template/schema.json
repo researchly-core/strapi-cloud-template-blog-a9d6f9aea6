@@ -18,6 +18,12 @@
     }
   },
   "attributes": {
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "configurable": false
+    },
     "SEO": {
       "type": "component",
       "pluginOptions": {
@@ -38,12 +44,6 @@
       "component": "shared.how-it-works",
       "repeatable": false
     },
-    "url_alias": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::webtools.url-alias",
-      "configurable": false
-    },
     "Language": {
       "type": "component",
       "pluginOptions": {
@@ -53,6 +53,14 @@
       },
       "component": "shared.language-picker",
       "repeatable": false
+    },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

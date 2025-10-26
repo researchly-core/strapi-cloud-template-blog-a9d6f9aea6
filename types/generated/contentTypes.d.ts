@@ -516,6 +516,12 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     sitemap_exclude: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
+    slug: Schema.Attribute.UID &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     Steps: Schema.Attribute.Component<'shared.how-it-works', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
