@@ -273,6 +273,8 @@ export interface SharedRichText extends Struct.ComponentSchema {
   };
   attributes: {
     body: Schema.Attribute.RichText;
+    CTA: Schema.Attribute.Component<'shared.cta', true>;
+    system_name: Schema.Attribute.Text;
   };
 }
 

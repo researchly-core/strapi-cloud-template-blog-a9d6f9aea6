@@ -495,6 +495,21 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    detail_section: Schema.Attribute.Component<
+      'shared.text-image-section',
+      true
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    Hero: Schema.Attribute.Component<'shared.hero-section', false> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -517,6 +532,12 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
         };
       }>;
     Steps: Schema.Attribute.Component<'shared.how-it-works', false> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    Systemprompt: Schema.Attribute.Component<'shared.rich-text', true> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

@@ -24,6 +24,16 @@
       "target": "plugin::webtools.url-alias",
       "configurable": false
     },
+    "Hero": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.hero-section",
+      "repeatable": false
+    },
     "Title": {
       "type": "string",
       "pluginOptions": {
@@ -59,6 +69,26 @@
           "localized": true
         }
       }
+    },
+    "detail_section": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.text-image-section",
+      "repeatable": true
+    },
+    "Systemprompt": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.rich-text",
+      "repeatable": true
     }
   }
 }

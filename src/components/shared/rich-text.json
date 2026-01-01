@@ -7,8 +7,16 @@
   },
   "options": {},
   "attributes": {
+    "system_name": {
+      "type": "text"
+    },
     "body": {
       "type": "richtext"
+    },
+    "CTA": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": true
     }
   }
 }
