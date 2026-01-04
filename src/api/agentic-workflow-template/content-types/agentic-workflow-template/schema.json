@@ -34,14 +34,6 @@
       "component": "shared.hero-section",
       "repeatable": false
     },
-    "Title": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "SEO": {
       "type": "component",
       "pluginOptions": {

@@ -544,12 +544,6 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
           localized: true;
         };
       }>;
-    Title: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
