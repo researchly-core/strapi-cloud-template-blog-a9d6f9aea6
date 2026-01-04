@@ -525,7 +525,7 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     sitemap_exclude: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
-    slug: Schema.Attribute.UID<'title'> &
+    slug: Schema.Attribute.UID &
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -543,16 +543,6 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
         i18n: {
           localized: true;
         };
-      }>;
-    title: Schema.Attribute.String &
-      Schema.Attribute.Required &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }> &
-      Schema.Attribute.SetMinMaxLength<{
-        minLength: 1;
       }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

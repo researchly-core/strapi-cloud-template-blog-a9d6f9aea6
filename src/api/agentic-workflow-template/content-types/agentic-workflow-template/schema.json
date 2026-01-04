@@ -61,7 +61,6 @@
           "localized": true
         }
       },
-      "targetField": "title",
       "required": true
     },
     "detail_section": {
@@ -83,16 +82,6 @@
       },
       "component": "shared.rich-text",
       "repeatable": true
-    },
-    "title": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "minLength": 1,
-      "required": true
     }
   }
 }
