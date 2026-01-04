@@ -550,6 +550,9 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
         i18n: {
           localized: true;
         };
+      }> &
+      Schema.Attribute.SetMinMaxLength<{
+        minLength: 1;
       }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
