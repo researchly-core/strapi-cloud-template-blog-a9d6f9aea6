@@ -11,7 +11,8 @@
       "type": "text"
     },
     "body": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "CTA": {
       "type": "component",

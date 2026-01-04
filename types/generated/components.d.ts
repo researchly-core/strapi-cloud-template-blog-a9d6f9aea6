@@ -78,12 +78,12 @@ export interface SharedHeroSection extends Struct.ComponentSchema {
     displayName: 'Hero Section';
   };
   attributes: {
-    bubble: Schema.Attribute.String;
+    bubble: Schema.Attribute.String & Schema.Attribute.Required;
     HardCTA: Schema.Attribute.Component<'shared.cta-button', false>;
-    headline: Schema.Attribute.String;
+    headline: Schema.Attribute.String & Schema.Attribute.Required;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     SoftCTA: Schema.Attribute.Component<'shared.cta-button', true>;
-    subheadline: Schema.Attribute.String;
+    subheadline: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
 
@@ -272,7 +272,7 @@ export interface SharedRichText extends Struct.ComponentSchema {
     icon: 'align-justify';
   };
   attributes: {
-    body: Schema.Attribute.RichText;
+    body: Schema.Attribute.RichText & Schema.Attribute.Required;
     CTA: Schema.Attribute.Component<'shared.cta', true>;
     system_name: Schema.Attribute.Text;
   };

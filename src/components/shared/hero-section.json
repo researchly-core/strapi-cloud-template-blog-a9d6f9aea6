@@ -7,10 +7,12 @@
   "options": {},
   "attributes": {
     "headline": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subheadline": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
       "type": "media",
@@ -25,16 +27,17 @@
     },
     "HardCTA": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.cta-button"
+      "component": "shared.cta-button",
+      "repeatable": false
     },
     "SoftCTA": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.cta-button"
+      "component": "shared.cta-button",
+      "repeatable": true
     },
     "bubble": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
