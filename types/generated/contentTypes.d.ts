@@ -525,7 +525,7 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     sitemap_exclude: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
-    slug: Schema.Attribute.UID &
+    slug: Schema.Attribute.UID<'title'> &
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -539,6 +539,13 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
         };
       }>;
     Systemprompt: Schema.Attribute.Component<'shared.rich-text', true> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    title: Schema.Attribute.String &
+      Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
