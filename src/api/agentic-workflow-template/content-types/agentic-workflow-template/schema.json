@@ -68,7 +68,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "detail_section": {
       "type": "component",

@@ -526,6 +526,7 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;
     slug: Schema.Attribute.UID &
+      Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
