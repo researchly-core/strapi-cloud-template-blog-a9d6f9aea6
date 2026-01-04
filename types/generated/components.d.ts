@@ -83,7 +83,7 @@ export interface SharedHeroSection extends Struct.ComponentSchema {
     headline: Schema.Attribute.String & Schema.Attribute.Required;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     SoftCTA: Schema.Attribute.Component<'shared.cta-button', true>;
-    subheadline: Schema.Attribute.String & Schema.Attribute.Required;
+    subheadline: Schema.Attribute.Text & Schema.Attribute.Required;
   };
 }
 

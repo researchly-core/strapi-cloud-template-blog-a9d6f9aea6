@@ -11,7 +11,7 @@
       "required": true
     },
     "subheadline": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "image": {
