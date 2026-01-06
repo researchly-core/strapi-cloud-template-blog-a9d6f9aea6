@@ -91,6 +91,11 @@
         "de-DE",
         "en-US"
       ]
+    },
+    "agent_cta": {
+      "type": "component",
+      "component": "shared.agent-cta",
+      "repeatable": false
     }
   }
 }

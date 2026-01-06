@@ -572,6 +572,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
+    agent_cta: Schema.Attribute.Component<'shared.agent-cta', false>;
     author: Schema.Attribute.Relation<'manyToOne', 'api::author.author'>;
     authorsNote: Schema.Attribute.Component<'shared.authors-note', false>;
     blocks: Schema.Attribute.DynamicZone<

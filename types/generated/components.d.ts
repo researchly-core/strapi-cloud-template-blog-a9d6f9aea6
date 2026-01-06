@@ -1,5 +1,17 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface SharedAgentCta extends Struct.ComponentSchema {
+  collectionName: 'components_shared_agent_ctas';
+  info: {
+    displayName: 'agent_cta';
+  };
+  attributes: {
+    cta: Schema.Attribute.String;
+    headline: Schema.Attribute.String;
+    subheadline: Schema.Attribute.Text;
+  };
+}
+
 export interface SharedAuthorsNote extends Struct.ComponentSchema {
   collectionName: 'components_shared_authors_notes';
   info: {
@@ -380,6 +392,7 @@ export interface SharedUseCase extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'shared.agent-cta': SharedAgentCta;
       'shared.authors-note': SharedAuthorsNote;
       'shared.cta': SharedCta;
       'shared.cta-button': SharedCtaButton;

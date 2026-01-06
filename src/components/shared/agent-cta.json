@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_agent_ctas",
+  "info": {
+    "displayName": "agent_cta"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "subheadline": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
