@@ -82,6 +82,21 @@
       },
       "component": "shared.rich-text",
       "repeatable": true
+    },
+    "category": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "enum": [
+        "PE",
+        "Consulting",
+        "Marketing",
+        "Research",
+        "MISC"
+      ]
     }
   }
 }
