@@ -741,6 +741,7 @@ export interface ApiFoerderungenFoerderungen
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    quick_facts_box: Schema.Attribute.RichText;
     SEO: Schema.Attribute.Component<'shared.seo', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

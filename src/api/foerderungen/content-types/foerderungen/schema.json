@@ -24,6 +24,9 @@
     "Content": {
       "type": "richtext"
     },
+    "quick_facts_box": {
+      "type": "richtext"
+    },
     "FAQ": {
       "type": "component",
       "component": "shared.faq",
