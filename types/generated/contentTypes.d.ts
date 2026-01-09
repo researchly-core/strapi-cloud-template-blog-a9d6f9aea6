@@ -727,6 +727,11 @@ export interface ApiFoerderungenFoerderungen
   options: {
     draftAndPublish: true;
   };
+  pluginOptions: {
+    webtools: {
+      enabled: true;
+    };
+  };
   attributes: {
     Content: Schema.Attribute.RichText;
     createdAt: Schema.Attribute.DateTime;
@@ -743,11 +748,19 @@ export interface ApiFoerderungenFoerderungen
     publishedAt: Schema.Attribute.DateTime;
     quick_facts_box: Schema.Attribute.RichText;
     SEO: Schema.Attribute.Component<'shared.seo', false>;
+    sitemap_exclude: Schema.Attribute.Boolean &
+      Schema.Attribute.Private &
+      Schema.Attribute.DefaultTo<false>;
     slug: Schema.Attribute.UID<'Title'>;
     Title: Schema.Attribute.String & Schema.Attribute.Unique;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    url_alias: Schema.Attribute.Relation<
+      'oneToMany',
+      'plugin::webtools.url-alias'
+    > &
+      Schema.Attribute.Unique;
   };
 }
 

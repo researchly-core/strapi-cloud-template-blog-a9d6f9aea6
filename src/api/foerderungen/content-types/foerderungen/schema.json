@@ -9,7 +9,11 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "webtools": {
+      "enabled": true
+    }
+  },
   "attributes": {
     "Hero": {
       "type": "component",
