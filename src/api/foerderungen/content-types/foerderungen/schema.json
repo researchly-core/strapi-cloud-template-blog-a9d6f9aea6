@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foerderungens",
+  "info": {
+    "singularName": "foerderungen",
+    "pluralName": "foerderungens",
+    "displayName": "Förderungen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "component": "shared.hero-section",
+      "repeatable": false
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "FAQ": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": false
+    }
+  }
+}
