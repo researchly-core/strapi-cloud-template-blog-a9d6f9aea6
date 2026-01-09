@@ -743,6 +743,8 @@ export interface ApiFoerderungenFoerderungen
     publishedAt: Schema.Attribute.DateTime;
     quick_facts_box: Schema.Attribute.RichText;
     SEO: Schema.Attribute.Component<'shared.seo', false>;
+    slug: Schema.Attribute.UID<'Title'>;
+    Title: Schema.Attribute.String & Schema.Attribute.Unique;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
