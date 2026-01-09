@@ -737,6 +737,7 @@ export interface ApiFoerderungenFoerderungen
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    CTA: Schema.Attribute.Component<'shared.cta', true>;
     FAQ: Schema.Attribute.Component<'shared.faq', true>;
     Hero: Schema.Attribute.Component<'shared.hero-section', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;

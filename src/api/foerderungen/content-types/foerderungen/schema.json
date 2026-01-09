@@ -43,6 +43,17 @@
     "slug": {
       "type": "uid",
       "targetField": "Title"
+    },
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "configurable": false
+    },
+    "CTA": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": true
     }
   }
 }
