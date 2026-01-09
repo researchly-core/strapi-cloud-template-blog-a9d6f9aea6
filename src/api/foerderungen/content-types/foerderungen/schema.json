@@ -30,7 +30,7 @@
     "FAQ": {
       "type": "component",
       "component": "shared.faq",
-      "repeatable": false
+      "repeatable": true
     },
     "Title": {
       "type": "string",
