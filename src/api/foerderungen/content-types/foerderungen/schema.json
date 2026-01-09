@@ -31,6 +31,14 @@
       "type": "component",
       "component": "shared.faq",
       "repeatable": false
+    },
+    "Title": {
+      "type": "string",
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
