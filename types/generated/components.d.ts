@@ -56,6 +56,7 @@ export interface SharedFaq extends Struct.ComponentSchema {
   };
   attributes: {
     Answer: Schema.Attribute.Blocks;
+    AnswerMD: Schema.Attribute.RichText;
     Question: Schema.Attribute.String;
   };
 }

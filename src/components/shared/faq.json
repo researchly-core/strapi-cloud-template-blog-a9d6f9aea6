@@ -11,6 +11,9 @@
     },
     "Answer": {
       "type": "blocks"
+    },
+    "AnswerMD": {
+      "type": "richtext"
     }
   }
 }
