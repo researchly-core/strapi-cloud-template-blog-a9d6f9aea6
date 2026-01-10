@@ -609,6 +609,9 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     SEO: Schema.Attribute.Component<'shared.seo', false>;
+    showCTA: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    showOnBlogSite: Schema.Attribute.Boolean &
+      Schema.Attribute.DefaultTo<false>;
     sitemap_exclude: Schema.Attribute.Boolean &
       Schema.Attribute.Private &
       Schema.Attribute.DefaultTo<false>;

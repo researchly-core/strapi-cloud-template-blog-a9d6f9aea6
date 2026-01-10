@@ -96,6 +96,14 @@
       "type": "component",
       "component": "shared.agent-cta",
       "repeatable": false
+    },
+    "showOnBlogSite": {
+      "type": "boolean",
+      "default": false
+    },
+    "showCTA": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
