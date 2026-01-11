@@ -518,6 +518,12 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
           localized: true;
         };
       }>;
+    icon: Schema.Attribute.Text &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
