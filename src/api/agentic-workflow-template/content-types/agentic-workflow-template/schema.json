@@ -104,7 +104,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "default": "<>"
     },
     "sub_agents": {
       "type": "relation",

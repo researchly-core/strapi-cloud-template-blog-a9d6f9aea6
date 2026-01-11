@@ -527,7 +527,8 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
         i18n: {
           localized: true;
         };
-      }>;
+      }> &
+      Schema.Attribute.DefaultTo<'<>'>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
