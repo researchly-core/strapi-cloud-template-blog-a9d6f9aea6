@@ -492,6 +492,10 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     };
   };
   attributes: {
+    agentic_workflow_templates: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::agentic-workflow-template.agentic-workflow-template'
+    >;
     category: Schema.Attribute.Enumeration<
       ['PE', 'Consulting', 'Marketing', 'Research', 'MISC']
     > &
@@ -552,6 +556,10 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
           localized: true;
         };
       }>;
+    sub_agents: Schema.Attribute.Relation<
+      'manyToMany',
+      'api::agentic-workflow-template.agentic-workflow-template'
+    >;
     Systemprompt: Schema.Attribute.Component<'shared.rich-text', true> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
