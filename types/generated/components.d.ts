@@ -144,6 +144,7 @@ export interface SharedInfoCard extends Struct.ComponentSchema {
     displayName: 'InfoCard';
   };
   attributes: {
+    content: Schema.Attribute.RichText;
     description: Schema.Attribute.Text;
     icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     title: Schema.Attribute.String;
@@ -357,6 +358,7 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
   };
   attributes: {
     content: Schema.Attribute.Blocks;
+    content_md: Schema.Attribute.RichText;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     imagePosition: Schema.Attribute.Enumeration<['left', 'right', 'stacked']>;
     primary_cta: Schema.Attribute.Component<'shared.cta-button', true>;

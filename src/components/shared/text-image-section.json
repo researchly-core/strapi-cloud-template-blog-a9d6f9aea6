@@ -46,6 +46,9 @@
     },
     "url": {
       "type": "string"
+    },
+    "content_md": {
+      "type": "richtext"
     }
   }
 }
