@@ -18,6 +18,12 @@
     }
   },
   "attributes": {
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "configurable": false
+    },
     "Hero": {
       "type": "component",
       "pluginOptions": {
@@ -54,12 +60,6 @@
       },
       "required": true
     },
-    "url_alias": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "plugin::webtools.url-alias",
-      "configurable": false
-    },
     "category": {
       "type": "enumeration",
       "pluginOptions": {
@@ -75,6 +75,15 @@
         "Research",
         "MISC"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
     }
   }
 }
