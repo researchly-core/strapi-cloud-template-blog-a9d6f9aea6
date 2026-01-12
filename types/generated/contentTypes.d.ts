@@ -495,11 +495,13 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     category: Schema.Attribute.Enumeration<
       ['PE', 'Consulting', 'Marketing', 'Research', 'MISC']
     > &
+      Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
-      }>;
+      }> &
+      Schema.Attribute.DefaultTo<'Consulting'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -519,12 +521,13 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
         };
       }>;
     icon: Schema.Attribute.Text &
+      Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }> &
-      Schema.Attribute.DefaultTo<'<>'>;
+      Schema.Attribute.DefaultTo<'<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">   <!-- Soft purple rounded square background [1] -->   <rect x="2" y="2" width="44" height="44" rx="8" fill="#f6edff"/>    <!-- Dividing lines for the 4 quadrants (Product, Price, Place, Promotion) -->   <path d="M24 12V36M12 24H36" stroke="#a259f7" stroke-width="2" stroke-linecap="round"/>'>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -532,6 +535,7 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     >;
     publishedAt: Schema.Attribute.DateTime;
     SEO: Schema.Attribute.Component<'shared.seo', false> &
+      Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
