@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "multi_agent_workflows",
+  "info": {
+    "singularName": "multi-agent-workflow",
+    "pluralName": "multi-agent-workflows",
+    "displayName": "Multi-Agent-Workflow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    },
+    "webtools": {
+      "enabled": true
+    }
+  },
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.hero-section",
+      "repeatable": false,
+      "required": true
+    },
+    "agentic_workflow_templates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::agentic-workflow-template.agentic-workflow-template"
+    },
+    "SEO": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo",
+      "repeatable": false,
+      "required": true
+    },
+    "icon": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "url_alias": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::webtools.url-alias",
+      "configurable": false
+    },
+    "category": {
+      "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "enum": [
+        "PE",
+        "Consulting",
+        "Marketing",
+        "Research",
+        "MISC"
+      ]
+    }
+  }
+}

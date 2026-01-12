@@ -492,10 +492,6 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     };
   };
   attributes: {
-    agentic_workflow_templates: Schema.Attribute.Relation<
-      'manyToMany',
-      'api::agentic-workflow-template.agentic-workflow-template'
-    >;
     category: Schema.Attribute.Enumeration<
       ['PE', 'Consulting', 'Marketing', 'Research', 'MISC']
     > &
@@ -557,10 +553,6 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
           localized: true;
         };
       }>;
-    sub_agents: Schema.Attribute.Relation<
-      'manyToMany',
-      'api::agentic-workflow-template.agentic-workflow-template'
-    >;
     Systemprompt: Schema.Attribute.Component<'shared.rich-text', true> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -940,6 +932,83 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Unique;
     use_cases: Schema.Attribute.Component<'shared.use-case', false>;
+  };
+}
+
+export interface ApiMultiAgentWorkflowMultiAgentWorkflow
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'multi_agent_workflows';
+  info: {
+    displayName: 'Multi-Agent-Workflow';
+    pluralName: 'multi-agent-workflows';
+    singularName: 'multi-agent-workflow';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+    webtools: {
+      enabled: true;
+    };
+  };
+  attributes: {
+    agentic_workflow_templates: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::agentic-workflow-template.agentic-workflow-template'
+    >;
+    category: Schema.Attribute.Enumeration<
+      ['PE', 'Consulting', 'Marketing', 'Research', 'MISC']
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    Hero: Schema.Attribute.Component<'shared.hero-section', false> &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    icon: Schema.Attribute.Text &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::multi-agent-workflow.multi-agent-workflow'
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    SEO: Schema.Attribute.Component<'shared.seo', false> &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    sitemap_exclude: Schema.Attribute.Boolean &
+      Schema.Attribute.Private &
+      Schema.Attribute.DefaultTo<false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    url_alias: Schema.Attribute.Relation<
+      'oneToMany',
+      'plugin::webtools.url-alias'
+    > &
+      Schema.Attribute.Unique;
   };
 }
 
@@ -1670,6 +1739,7 @@ declare module '@strapi/strapi' {
       'api::global.global': ApiGlobalGlobal;
       'api::home-page.home-page': ApiHomePageHomePage;
       'api::landing-page.landing-page': ApiLandingPageLandingPage;
+      'api::multi-agent-workflow.multi-agent-workflow': ApiMultiAgentWorkflowMultiAgentWorkflow;
       'api::pricing.pricing': ApiPricingPricing;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

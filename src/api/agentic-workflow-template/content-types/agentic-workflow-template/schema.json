@@ -106,18 +106,6 @@
         }
       },
       "default": "<>"
-    },
-    "sub_agents": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::agentic-workflow-template.agentic-workflow-template",
-      "inversedBy": "agentic_workflow_templates"
-    },
-    "agentic_workflow_templates": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::agentic-workflow-template.agentic-workflow-template",
-      "mappedBy": "sub_agents"
     }
   }
 }
