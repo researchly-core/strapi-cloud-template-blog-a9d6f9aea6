@@ -28,11 +28,13 @@
     },
     "title": {
       "type": "string",
-      "default": "recommendation: 60 characters"
+      "default": "recommendation: 60 characters",
+      "required": true
     },
     "description": {
       "type": "text",
-      "default": "give me a short summary for my blog post: Give a clear 1-3 sentence answer in simple language. Format like a featured snippet. Optional: add a relevant internal link."
+      "default": "give me a short summary for my blog post: Give a clear 1-3 sentence answer in simple language. Format like a featured snippet. Optional: add a relevant internal link.",
+      "required": true
     },
     "slug": {
       "type": "uid",
@@ -41,7 +43,7 @@
     "cover": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -73,7 +75,8 @@
     "SEO": {
       "type": "component",
       "component": "shared.seo",
-      "repeatable": false
+      "repeatable": false,
+      "required": true
     },
     "authorsNote": {
       "type": "component",
@@ -83,10 +86,12 @@
     "FAQ": {
       "type": "component",
       "component": "shared.faq",
-      "repeatable": true
+      "repeatable": true,
+      "required": true
     },
     "language": {
       "type": "enumeration",
+      "default": "de-DE",
       "enum": [
         "de-DE",
         "en-US"

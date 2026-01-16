@@ -611,14 +611,18 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
       ]
     >;
     category: Schema.Attribute.Relation<'manyToOne', 'api::category.category'>;
-    cover: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+    cover: Schema.Attribute.Media<'images' | 'files' | 'videos'> &
+      Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.Text &
+      Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'give me a short summary for my blog post: Give a clear 1-3 sentence answer in simple language. Format like a featured snippet. Optional: add a relevant internal link.'>;
-    FAQ: Schema.Attribute.Component<'shared.faq', true>;
-    language: Schema.Attribute.Enumeration<['de-DE', 'en-US']>;
+    FAQ: Schema.Attribute.Component<'shared.faq', true> &
+      Schema.Attribute.Required;
+    language: Schema.Attribute.Enumeration<['de-DE', 'en-US']> &
+      Schema.Attribute.DefaultTo<'de-DE'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -626,7 +630,8 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    SEO: Schema.Attribute.Component<'shared.seo', false>;
+    SEO: Schema.Attribute.Component<'shared.seo', false> &
+      Schema.Attribute.Required;
     showCTA: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     showOnBlogSite: Schema.Attribute.Boolean &
       Schema.Attribute.DefaultTo<false>;
@@ -635,6 +640,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
       Schema.Attribute.DefaultTo<false>;
     slug: Schema.Attribute.UID<'title'>;
     title: Schema.Attribute.String &
+      Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'recommendation: 60 characters'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
