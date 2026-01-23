@@ -109,6 +109,12 @@
     "showCTA": {
       "type": "boolean",
       "default": true
+    },
+    "cta_btn_top_text": {
+      "type": "string"
+    },
+    "cta_btn_top_url": {
+      "type": "string"
     }
   }
 }
