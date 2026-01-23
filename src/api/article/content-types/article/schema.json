@@ -111,10 +111,12 @@
       "default": true
     },
     "cta_btn_top_text": {
-      "type": "string"
+      "type": "string",
+      "default": "Kostenlos automatisieren"
     },
     "cta_btn_top_url": {
-      "type": "string"
+      "type": "string",
+      "default": "#cta"
     }
   }
 }

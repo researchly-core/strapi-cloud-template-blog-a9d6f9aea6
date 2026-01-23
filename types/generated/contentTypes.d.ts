@@ -616,8 +616,10 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    cta_btn_top_text: Schema.Attribute.String;
-    cta_btn_top_url: Schema.Attribute.String;
+    cta_btn_top_text: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'Kostenlos automatisieren'>;
+    cta_btn_top_url: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'#cta'>;
     description: Schema.Attribute.Text &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'give me a short summary for my blog post: Give a clear 1-3 sentence answer in simple language. Format like a featured snippet. Optional: add a relevant internal link.'>;
