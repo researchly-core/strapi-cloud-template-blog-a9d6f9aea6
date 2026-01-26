@@ -25,6 +25,9 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
