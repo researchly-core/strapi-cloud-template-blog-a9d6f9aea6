@@ -492,6 +492,7 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
     };
   };
   attributes: {
+    articles: Schema.Attribute.Relation<'oneToMany', 'api::article.article'>;
     category: Schema.Attribute.Enumeration<
       ['PE', 'Consulting', 'Marketing', 'Research', 'MISC']
     > &
