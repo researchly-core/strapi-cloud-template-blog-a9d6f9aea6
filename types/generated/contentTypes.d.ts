@@ -515,7 +515,7 @@ export interface ApiAgenticWorkflowTemplateAgenticWorkflowTemplate
           localized: true;
         };
       }>;
-    faq: Schema.Attribute.Component<'shared.faq', false> &
+    faq: Schema.Attribute.Component<'shared.faq', true> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

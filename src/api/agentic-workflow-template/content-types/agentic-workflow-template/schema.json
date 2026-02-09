@@ -133,7 +133,7 @@
         }
       },
       "component": "shared.faq",
-      "repeatable": false
+      "repeatable": true
     }
   }
 }
