@@ -32,6 +32,10 @@
     },
     "pillar_id": {
       "type": "string"
+    },
+    "INDEX": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

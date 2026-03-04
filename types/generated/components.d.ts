@@ -316,6 +316,7 @@ export interface SharedSeo extends Struct.ComponentSchema {
     name: 'Seo';
   };
   attributes: {
+    INDEX: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
     metaDescription: Schema.Attribute.Text &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'rec. 150 char.'>;
