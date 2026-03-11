@@ -866,6 +866,7 @@ export interface ApiHomePageHomePage extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
+    comparison_item: Schema.Attribute.Component<'shared.before-after', true>;
     content: Schema.Attribute.RichText;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

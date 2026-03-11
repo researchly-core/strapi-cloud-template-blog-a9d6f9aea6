@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_before_afters",
+  "info": {
+    "displayName": "before-after"
+  },
+  "options": {},
+  "attributes": {
+    "aspect": {
+      "type": "blocks"
+    },
+    "before": {
+      "type": "text"
+    },
+    "after": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

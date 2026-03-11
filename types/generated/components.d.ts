@@ -23,6 +23,18 @@ export interface SharedAuthorsNote extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedBeforeAfter extends Struct.ComponentSchema {
+  collectionName: 'components_shared_before_afters';
+  info: {
+    displayName: 'before-after';
+  };
+  attributes: {
+    after: Schema.Attribute.Text;
+    aspect: Schema.Attribute.Blocks;
+    before: Schema.Attribute.Text;
+  };
+}
+
 export interface SharedCta extends Struct.ComponentSchema {
   collectionName: 'components_shared_ctas';
   info: {
@@ -399,6 +411,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'shared.agent-cta': SharedAgentCta;
       'shared.authors-note': SharedAuthorsNote;
+      'shared.before-after': SharedBeforeAfter;
       'shared.cta': SharedCta;
       'shared.cta-button': SharedCtaButton;
       'shared.faq': SharedFaq;
