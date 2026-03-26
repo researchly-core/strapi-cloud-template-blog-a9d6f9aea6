@@ -13,6 +13,9 @@
   "pluginOptions": {
     "webtools": {
       "enabled": true
+    },
+    "i18n": {
+      "localized": true
     }
   },
   "attributes": {
@@ -28,11 +31,21 @@
     },
     "title": {
       "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "default": "recommendation: 60 characters",
       "required": true
     },
     "description": {
       "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "default": "give me a short summary for my blog post: Give a clear 1-3 sentence answer in simple language. Format like a featured snippet. Optional: add a relevant internal link.",
       "required": true
     },
@@ -42,6 +55,11 @@
     },
     "cover": {
       "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "multiple": false,
       "required": true,
       "allowedTypes": [
@@ -64,6 +82,11 @@
     },
     "blocks": {
       "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "components": [
         "shared.media",
         "shared.quote",
@@ -74,23 +97,43 @@
     },
     "SEO": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "shared.seo",
       "repeatable": false,
       "required": true
     },
     "authorsNote": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "shared.authors-note",
       "repeatable": false
     },
     "FAQ": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "shared.faq",
       "repeatable": true,
       "required": true
     },
     "language": {
       "type": "enumeration",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "default": "de-DE",
       "enum": [
         "de-DE",
@@ -99,23 +142,48 @@
     },
     "agent_cta": {
       "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "component": "shared.agent-cta",
       "repeatable": false
     },
     "showOnBlogSite": {
       "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "default": false
     },
     "showCTA": {
       "type": "boolean",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "default": true
     },
     "cta_btn_top_text": {
       "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "default": "Kostenlos automatisieren"
     },
     "cta_btn_top_url": {
       "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
       "default": "#cta"
     }
   }
