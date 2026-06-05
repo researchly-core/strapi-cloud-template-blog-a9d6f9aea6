@@ -274,6 +274,8 @@ export interface SharedPricingBlock extends Struct.ComponentSchema {
     displayName: 'pricing_block';
   };
   attributes: {
+    cta_link: Schema.Attribute.String;
+    cta_text: Schema.Attribute.String;
     pricing_plan_features: Schema.Attribute.Blocks;
     pricing_plan_name: Schema.Attribute.String;
     pricing_plan_price: Schema.Attribute.String;
