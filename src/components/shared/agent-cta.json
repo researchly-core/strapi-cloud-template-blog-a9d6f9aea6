@@ -13,6 +13,9 @@
     },
     "cta": {
       "type": "string"
+    },
+    "body": {
+      "type": "blocks"
     }
   },
   "config": {}

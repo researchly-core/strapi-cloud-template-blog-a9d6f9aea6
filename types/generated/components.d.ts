@@ -6,6 +6,7 @@ export interface SharedAgentCta extends Struct.ComponentSchema {
     displayName: 'agent_cta';
   };
   attributes: {
+    body: Schema.Attribute.Blocks;
     cta: Schema.Attribute.String;
     headline: Schema.Attribute.String;
     subheadline: Schema.Attribute.Text;
