@@ -13,6 +13,18 @@ export interface SharedAgentCta extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedAudienceSection extends Struct.ComponentSchema {
+  collectionName: 'components_shared_audience_sections';
+  info: {
+    description: 'Wie Strategieteams Researchly f\u00FCr [Agent] nutzen';
+    displayName: 'Audience Section';
+  };
+  attributes: {
+    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    items: Schema.Attribute.Component<'shared.landing-card', true>;
+  };
+}
+
 export interface SharedAuthorsNote extends Struct.ComponentSchema {
   collectionName: 'components_shared_authors_notes';
   info: {
@@ -33,6 +45,18 @@ export interface SharedBeforeAfter extends Struct.ComponentSchema {
     after: Schema.Attribute.Text;
     aspect: Schema.Attribute.Blocks;
     before: Schema.Attribute.Text;
+  };
+}
+
+export interface SharedCapabilitiesSection extends Struct.ComponentSchema {
+  collectionName: 'components_shared_capabilities_sections';
+  info: {
+    description: 'Wof\u00FCr Sie Researchly nutzen k\u00F6nnen';
+    displayName: 'Capabilities Section';
+  };
+  attributes: {
+    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    items: Schema.Attribute.Component<'shared.landing-card', true>;
   };
 }
 
@@ -58,6 +82,21 @@ export interface SharedCtaButton extends Struct.ComponentSchema {
   attributes: {
     label: Schema.Attribute.String;
     link: Schema.Attribute.String;
+  };
+}
+
+export interface SharedDemoUseCaseCard extends Struct.ComponentSchema {
+  collectionName: 'components_shared_demo_use_case_cards';
+  info: {
+    description: 'Marketing card for Anwendungsf\u00E4lle linking to a demo analysis in the web app';
+    displayName: 'Demo Use Case Card';
+  };
+  attributes: {
+    analysis_id: Schema.Attribute.String & Schema.Attribute.Required;
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
+    image: Schema.Attribute.Media<'images'>;
+    label: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
 
@@ -105,6 +144,8 @@ export interface SharedHeroSection extends Struct.ComponentSchema {
   };
   attributes: {
     bubble: Schema.Attribute.String & Schema.Attribute.Required;
+    formLabel: Schema.Attribute.String;
+    formPlaceholder: Schema.Attribute.String;
     HardCTA: Schema.Attribute.Component<'shared.cta-button', false>;
     headline: Schema.Attribute.String & Schema.Attribute.Required;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
@@ -201,6 +242,19 @@ export interface SharedInsightscard extends Struct.ComponentSchema {
       true
     >;
     Title: Schema.Attribute.String;
+  };
+}
+
+export interface SharedLandingCard extends Struct.ComponentSchema {
+  collectionName: 'components_shared_landing_cards';
+  info: {
+    description: 'Title, description, and optional image for agent landing page sections';
+    displayName: 'Landing Card';
+  };
+  attributes: {
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
 
@@ -386,6 +440,18 @@ export interface SharedTextImageSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedTransformsSection extends Struct.ComponentSchema {
+  collectionName: 'components_shared_transforms_sections';
+  info: {
+    description: 'Alternating image/text rows \u2014 Wie Researchly \u2026 ver\u00E4ndert';
+    displayName: 'Transforms Section';
+  };
+  attributes: {
+    heading: Schema.Attribute.String & Schema.Attribute.Required;
+    rows: Schema.Attribute.Component<'shared.landing-card', true>;
+  };
+}
+
 export interface SharedUsc extends Struct.ComponentSchema {
   collectionName: 'components_shared_uscs';
   info: {
@@ -410,13 +476,16 @@ export interface SharedUseCase extends Struct.ComponentSchema {
 }
 
 declare module '@strapi/strapi' {
-  export module Public {
+  export namespace Public {
     export interface ComponentSchemas {
       'shared.agent-cta': SharedAgentCta;
+      'shared.audience-section': SharedAudienceSection;
       'shared.authors-note': SharedAuthorsNote;
       'shared.before-after': SharedBeforeAfter;
+      'shared.capabilities-section': SharedCapabilitiesSection;
       'shared.cta': SharedCta;
       'shared.cta-button': SharedCtaButton;
+      'shared.demo-use-case-card': SharedDemoUseCaseCard;
       'shared.faq': SharedFaq;
       'shared.features': SharedFeatures;
       'shared.flourish-link': SharedFlourishLink;
@@ -428,6 +497,7 @@ declare module '@strapi/strapi' {
       'shared.info-section': SharedInfoSection;
       'shared.insights': SharedInsights;
       'shared.insightscard': SharedInsightscard;
+      'shared.landing-card': SharedLandingCard;
       'shared.language-picker': SharedLanguagePicker;
       'shared.media': SharedMedia;
       'shared.menu': SharedMenu;
@@ -442,6 +512,7 @@ declare module '@strapi/strapi' {
       'shared.slider': SharedSlider;
       'shared.testimonials': SharedTestimonials;
       'shared.text-image-section': SharedTextImageSection;
+      'shared.transforms-section': SharedTransformsSection;
       'shared.usc': SharedUsc;
       'shared.use-case': SharedUseCase;
     }

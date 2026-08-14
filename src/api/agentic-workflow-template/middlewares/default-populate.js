@@ -17,6 +17,11 @@ const defaultPopulate = {
   detail_section: { populate: '*' },
   Systemprompt: { populate: '*' },
   faq: { populate: '*' },
+  demo_use_cases: {
+    populate: {
+      image: true,
+    },
+  },
   articles: {
     populate: {
       cover: true,

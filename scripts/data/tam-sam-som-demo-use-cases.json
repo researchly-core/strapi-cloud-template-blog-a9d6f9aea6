@@ -1,0 +1,17 @@
+{
+  "use_cases_heading": "Anwendungsfälle",
+  "demo_use_cases": [
+    {
+      "label": "Von VCs, Private Equity und Strategy Consultants genutzt",
+      "title": "Marktchance in einem neuen Segment validieren",
+      "description": "Vom ersten Signal bis zur datengetriebenen Einschätzung: So finden Teams Marktchancen, bevor der Wettbewerb sie sieht.",
+      "analysis_id": "0c8151c5-326f-4ae5-a3fb-5df9080cfa85"
+    },
+    {
+      "label": "Research",
+      "title": "Wettbewerbslandschaft in Minuten statt Wochen",
+      "description": "Konsumentenverschiebungen, Preissignale und regulatorische Änderungen in einem Report — bereit für Strategie-Meetings.",
+      "analysis_id": "0c8151c5-326f-4ae5-a3fb-5df9080cfa85"
+    }
+  ]
+}

@@ -143,6 +143,16 @@
         }
       }
     },
+    "demo_use_cases": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.demo-use-case-card",
+      "repeatable": true
+    },
     "capabilities": {
       "type": "component",
       "pluginOptions": {

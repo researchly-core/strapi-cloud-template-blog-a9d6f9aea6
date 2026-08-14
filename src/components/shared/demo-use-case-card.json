@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_demo_use_case_cards",
+  "info": {
+    "displayName": "Demo Use Case Card",
+    "description": "Marketing card for Anwendungsfälle linking to a demo analysis in the web app"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "analysis_id": {
+      "type": "string",
+      "required": true,
+      "regex": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
