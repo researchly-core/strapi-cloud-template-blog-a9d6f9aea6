@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_transforms_sections",
+  "info": {
+    "displayName": "Transforms Section",
+    "description": "Alternating image/text rows — Wie Researchly … verändert"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.landing-card"
+    }
+  }
+}

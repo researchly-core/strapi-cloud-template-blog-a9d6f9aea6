@@ -134,6 +134,44 @@
       },
       "component": "shared.faq",
       "repeatable": true
+    },
+    "use_cases_heading": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "capabilities": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.capabilities-section",
+      "repeatable": false
+    },
+    "audience": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.audience-section",
+      "repeatable": false
+    },
+    "transforms": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.transforms-section",
+      "repeatable": false
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_landing_cards",
+  "info": {
+    "displayName": "Landing Card",
+    "description": "Title, description, and optional image for agent landing page sections"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

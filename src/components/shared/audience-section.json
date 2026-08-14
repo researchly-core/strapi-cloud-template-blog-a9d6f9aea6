@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_audience_sections",
+  "info": {
+    "displayName": "Audience Section",
+    "description": "Wie Strategieteams Researchly für [Agent] nutzen"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.landing-card"
+    }
+  }
+}
