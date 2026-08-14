@@ -14,14 +14,6 @@
       "type": "text",
       "required": true
     },
-    "panelLabel": {
-      "type": "string",
-      "required": true
-    },
-    "panelTakeaway": {
-      "type": "text",
-      "required": true
-    },
     "screenshot": {
       "type": "media",
       "multiple": false,
