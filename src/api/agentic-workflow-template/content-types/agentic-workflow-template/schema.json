@@ -182,6 +182,17 @@
       },
       "component": "shared.transforms-section",
       "repeatable": false
+    },
+    "modules": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.modules-section",
+      "repeatable": false
     }
   }
 }
+

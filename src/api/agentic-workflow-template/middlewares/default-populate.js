@@ -43,6 +43,15 @@ const defaultPopulate = {
       rows: landingCardPopulate,
     },
   },
+  modules: {
+    populate: {
+      items: {
+        populate: {
+          screenshot: true,
+        },
+      },
+    },
+  },
 };
 
 module.exports = (config, { strapi }) => {

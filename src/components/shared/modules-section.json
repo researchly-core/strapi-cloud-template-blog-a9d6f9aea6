@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_modules_sections",
+  "info": {
+    "displayName": "Modules Section",
+    "description": "Left-nav modules showcase with heading and items"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheadline": {
+      "type": "text",
+      "required": false
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.module-item"
+    }
+  }
+}

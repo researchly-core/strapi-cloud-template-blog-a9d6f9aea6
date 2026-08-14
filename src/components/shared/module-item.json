@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_module_items",
+  "info": {
+    "displayName": "Module Item",
+    "description": "Left-nav topic + right panel for modules showcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "panelLabel": {
+      "type": "string",
+      "required": true
+    },
+    "panelTakeaway": {
+      "type": "text",
+      "required": true
+    },
+    "screenshot": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}
