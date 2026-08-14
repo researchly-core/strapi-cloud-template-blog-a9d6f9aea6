@@ -38,6 +38,12 @@
     "bubble": {
       "type": "string",
       "required": true
+    },
+    "formLabel": {
+      "type": "string"
+    },
+    "formPlaceholder": {
+      "type": "string"
     }
   }
 }
