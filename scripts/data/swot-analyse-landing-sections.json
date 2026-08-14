@@ -1,0 +1,67 @@
+{
+  "documentId": "caoa2xbxid0nh2yidamuthhi",
+  "locale": "de-DE",
+  "slug": "swot-analyse",
+  "data": {
+    "use_cases_heading": "Anwendungsfälle für SWOT-Analysen",
+    "capabilities": {
+      "heading": "Wofür Sie Researchly nutzen können",
+      "items": [
+        {
+          "title": "SWOT-Analysen in Minuten",
+          "description": "Erstellen Sie vollständige SWOT-Matrizen mit priorisierten Handlungsempfehlungen — strukturiert nach MECE-Prinzip und bereit für Ihr nächstes Strategy-Meeting."
+        },
+        {
+          "title": "Investment Due Diligence",
+          "description": "Bewerten Sie Portfoliounternehmen und Deal-Kandidaten systematisch: Stärken, Schwächen, Marktchancen und Risiken auf Basis aktueller Datenquellen."
+        },
+        {
+          "title": "Strategische Entscheidungen vorbereiten",
+          "description": "Nutzen Sie die TOWS-Matrix und konkrete Handlungsempfehlungen als Entscheidungsgrundlage für Markteintritt, Produktlaunch oder Wachstumsstrategien."
+        },
+        {
+          "title": "Wettbewerbsposition bewerten",
+          "description": "Vergleichen Sie die eigene Position im Marktumfeld und identifizieren Sie Chancen und Bedrohungen aus dem Wettbewerbskontext."
+        }
+      ]
+    },
+    "audience": {
+      "heading": "Wie Strategieteams Researchly für SWOT-Analysen nutzen",
+      "items": [
+        {
+          "title": "Private Equity & Venture Capital",
+          "description": "Analysten und Associates nutzen den SWOT-Agent für schnelle Due-Diligence-Screenings und Investment-Memos — bevor das Deep-Dive-Team einsteigt."
+        },
+        {
+          "title": "Strategieberatung",
+          "description": "Berater erstellen erste Hypothesen und Frameworks für Kundenprojekte in Minuten statt Stunden und fokussieren sich auf Interpretation und Empfehlungen."
+        },
+        {
+          "title": "Corporate Strategy Teams",
+          "description": "Strategieteams in Konzernen bewerten Geschäftseinheiten, Produkte und Markteintritte mit konsistenten, reproduzierbaren Analysen."
+        },
+        {
+          "title": "Produktmanagement",
+          "description": "Product Manager identifizieren Marktchancen und technologische Risiken für Roadmap-Entscheidungen und Go-to-Market-Strategien."
+        }
+      ]
+    },
+    "transforms": {
+      "heading": "Wie Researchly Ihre SWOT-Analyse verändert",
+      "rows": [
+        {
+          "title": "Von manueller Recherche zu datenbasierter Analyse",
+          "description": "Statt stundenlang Google, Berichte und Notizen zu durchforsten, recherchiert Researchly automatisch relevante Kontextinformationen — Branche, Wettbewerb und Marktumfeld."
+        },
+        {
+          "title": "Von subjektiven Einschätzungen zu strukturierten Ergebnissen",
+          "description": "Der Agent arbeitet nach MECE-Prinzip und liefert hypothesengetriebene Ergebnisse wie ein Senior Strategy Consultant — konsistent und reproduzierbar."
+        },
+        {
+          "title": "Von Stunden Aufwand zu Ergebnissen in Minuten",
+          "description": "Was manuell 4–8 Stunden dauert, erhalten Sie in unter 10 Minuten: SWOT-Matrix, Priorisierung, TOWS-Strategien und konkrete Handlungsempfehlungen."
+        }
+      ]
+    }
+  }
+}
