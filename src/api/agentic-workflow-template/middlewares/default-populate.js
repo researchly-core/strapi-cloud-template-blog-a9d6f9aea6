@@ -7,7 +7,14 @@ const landingCardPopulate = {
 };
 
 const defaultPopulate = {
-  Hero: { populate: '*' },
+  Hero: {
+    populate: {
+      image: true,
+      HardCTA: true,
+      SoftCTA: true,
+      stats: true,
+    },
+  },
   SEO: { populate: '*' },
   Steps: {
     populate: {

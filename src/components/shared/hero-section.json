@@ -44,6 +44,11 @@
     },
     "formPlaceholder": {
       "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "component": "shared.stat-item",
+      "repeatable": true
     }
   }
 }
