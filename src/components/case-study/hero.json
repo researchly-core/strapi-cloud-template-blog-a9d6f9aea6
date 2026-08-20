@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_case_study_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": "Case study landing hero (no form CTA)"
+  },
+  "options": {},
+  "attributes": {
+    "kicker": {
+      "type": "string",
+      "default": "Case Study"
+    },
+    "headline": {
+      "type": "text",
+      "required": true
+    },
+    "subheadline": {
+      "type": "text",
+      "required": true
+    },
+    "tags": {
+      "type": "component",
+      "component": "case-study.tag",
+      "repeatable": true
+    },
+    "client_label": {
+      "type": "string"
+    },
+    "client_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "stats": {
+      "type": "component",
+      "component": "shared.stat-item",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files"]
+    }
+  }
+}

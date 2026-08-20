@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_case_study_tags",
+  "info": {
+    "displayName": "Tag",
+    "description": "Industry / theme chip for case study hero"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
