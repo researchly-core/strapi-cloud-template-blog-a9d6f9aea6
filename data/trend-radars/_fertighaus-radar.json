@@ -1,0 +1,284 @@
+[
+  {
+    "Quadrant": "Markt & Nachfrage",
+    "Trends": [
+      {
+        "Trend": "Steigender Marktanteil von Fertighäusern im Neubau",
+        "Ring": "Adopt",
+        "Beschreibung": "Der Fertighausanteil im Neubau von Ein- und Zweifamilienhäusern hat sich über Jahre deutlich erhöht und erreicht 2024/2025 Rekordwerte von rund 26 bis 26,5 Prozent. Der Trend ist bundesweit sichtbar und zeigt eine etablierte, klar messbare Marktverschiebung zugunsten industrieller Bauweisen.",
+        "Begründung": "Mehrjährige Aufwärtsentwicklung, hohe aktuelle Marktpenetration und Rekordniveau sprechen für eine breite Marktreife und unmittelbare Relevanz.",
+        "Signale": [
+          "2024 erreicht Fertighaus-Anteil 26 %. [https://www.fertighaus.de/ratgeber/news/fertighaus-anteil-steigt/]",
+          "2025 betrug der Marktanteil 26,5 Prozent. [https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/]",
+          "H1 2025: Fertigbauanteil 26,2 %. [https://www.verbandsbuero.de/fertigbau-2025-rekordquote-bei-neubaugenehmigungen-treibt-holzbau-und-wohnungsbau-an/]",
+          "Seit 2020 stieg Anteil von 22,2 %. [https://www.verbandsbuero.de/fertigbau-2025-rekordquote-bei-neubaugenehmigungen-treibt-holzbau-und-wohnungsbau-an/]",
+          "Vor Jahrtausendwende: Anteil bei 13,5 %. [https://www.verbandsbuero.de/fertigbau-2025-rekordquote-bei-neubaugenehmigungen-treibt-holzbau-und-wohnungsbau-an/]"
+        ],
+        "Quellen": [
+          "https://www.fertighaus.de/ratgeber/news/fertighaus-anteil-steigt/",
+          "https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/",
+          "https://www.verbandsbuero.de/fertigbau-2025-rekordquote-bei-neubaugenehmigungen-treibt-holzbau-und-wohnungsbau-an/"
+        ]
+      },
+      {
+        "Trend": "Fertigbau wächst in der Baukrise schneller als der Gesamtmarkt",
+        "Ring": "Adopt",
+        "Beschreibung": "Trotz schwieriger Baukonjunktur entwickeln sich Fertighäuser robuster als konventionelle Bauweisen. Genehmigungen für Fertighäuser steigen stärker als der Gesamtmarkt für Ein- und Zweifamilienhäuser, wodurch der Marktanteil weiter zunimmt.",
+        "Begründung": "Die relative Krisenresilienz ist anhand aktueller Genehmigungsdaten bereits klar belegt und hat unmittelbare Marktfolgen.",
+        "Signale": [
+          "2025: Genehmigungen stiegen um 14,6 Prozent. [https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/]",
+          "2025: Fertighaus-Genehmigungen stiegen 16,7 Prozent. [https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/]",
+          "2024: Fertigbauanteil bei 26,1 Prozent. [https://www.bayerische-staatszeitung.de/staatszeitung/bauen/detailansicht-bauen/artikel/fertighaeuser-gewinnen-in-der-baukrise-an-marktanteil.html]",
+          "2025 war der Marktanteil der höchste jemals. [https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/]"
+        ],
+        "Quellen": [
+          "https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/",
+          "https://www.bayerische-staatszeitung.de/staatszeitung/bauen/detailansicht-bauen/artikel/fertighaeuser-gewinnen-in-der-baukrise-an-marktanteil.html"
+        ]
+      },
+      {
+        "Trend": "Regionale Nachfragecluster mit starker Süd- und Mitte-Dominanz",
+        "Ring": "Trial",
+        "Beschreibung": "Die Nachfrage nach Fertighäusern ist regional sehr ungleich verteilt. Besonders hohe Quoten zeigen Baden-Württemberg, Hessen, Rheinland-Pfalz und teils Berlin, während Niedersachsen und Hamburg deutlich darunter liegen. Das spricht für regionale Priorisierung in Vertrieb, Standortwahl und Marktbearbeitung.",
+        "Begründung": "Der Trend ist deutlich sichtbar und operativ relevant, aber stark regionsabhängig und nicht überall gleich ausgeprägt.",
+        "Signale": [
+          "Baden-Württemberg führte 2023 mit 40,9 Prozent. [https://de.statista.com/statistik/daten/studie/447094/umfrage/anteil-der-fertighaeuser-am-neubau-nach-bundeslaendern/]",
+          "Hessen auf Platz zwei mit knapp 38 %. [https://www.fertighaus.de/ratgeber/news/fertighaus-anteil-steigt/]",
+          "Rheinland-Pfalz bei rund 31 %. [https://www.fertighaus.de/ratgeber/news/fertighaus-anteil-steigt/]",
+          "Baden-Württemberg zeigt 2025 höchste Nachfrage regional. [https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/]",
+          "Berlin 2025: fast jeder dritte Neubau Fertighaus. [https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/]",
+          "Niedersachsen Fertigbauanteil 7,2 Prozent. [https://www.hurra-wir-bauen.de/ratgeber/news/fertighausbranche]",
+          "Hamburg Fertigbauanteil 4,9 Prozent. [https://www.hurra-wir-bauen.de/ratgeber/news/fertighausbranche]"
+        ],
+        "Quellen": [
+          "https://de.statista.com/statistik/daten/studie/447094/umfrage/anteil-der-fertighaeuser-am-neubau-nach-bundeslaendern/",
+          "https://www.fertighaus.de/ratgeber/news/fertighaus-anteil-steigt/",
+          "https://www.fertighaus.com/news/fertigbau-kommt-schneller-aus-der-baukrise/",
+          "https://www.hurra-wir-bauen.de/ratgeber/news/fertighausbranche"
+        ]
+      },
+      {
+        "Trend": "Privathaushalte dominieren als Bauherrensegment",
+        "Ring": "Adopt",
+        "Beschreibung": "Der Fertigbau wird überwiegend von privaten Haushalten getragen. Unternehmen und öffentliche Träger spielen nur eine kleine Rolle. Das macht das Marktsegment stark endkundenzentriert und sensibel für Finanzierung, Förderlogik und Konsumentenvertrauen.",
+        "Begründung": "Die Käuferstruktur ist klar etabliert und sollte unmittelbar in Produkt-, Vertriebs- und Kommunikationsstrategien berücksichtigt werden.",
+        "Signale": [
+          "Private Haushalte: 90,9 % der Bauherren. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]",
+          "Unternehmen: 7,9 % der Bauherren. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]",
+          "Öffentliche Träger: 1,1 % der Bauherren. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]"
+        ],
+        "Quellen": [
+          "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html"
+        ]
+      }
+    ]
+  },
+  {
+    "Quadrant": "Wirtschaftlichkeit & Kosten",
+    "Trends": [
+      {
+        "Trend": "Preisvorteile gegenüber konventionellem Wohnbau stabilisieren sich",
+        "Ring": "Adopt",
+        "Beschreibung": "Fertighäuser zeigen zuletzt geringere Preissteigerungen als konventionelle Wohngebäude. Auch über zehn Jahre liegt der kumulierte Preisanstieg etwas niedriger. Das stärkt die Position von Fertigbau als wirtschaftlich vergleichsweise robustes Angebotsmodell.",
+        "Begründung": "Die Entwicklung ist statistisch belegt und bereits marktwirksam, daher unmittelbar handlungsrelevant.",
+        "Signale": [
+          "Einfamilien-Fertighäuser 2024: Preise plus 0,5 %. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]",
+          "Konventionelle Wohngebäude 2024: Preise plus 2,9 %. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]",
+          "Zehnjahres-Preisanstieg Fertighäuser: plus 62,2 %. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]",
+          "Konventionelle Wohngebäude: plus 67,5 % in zehn Jahren. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]"
+        ],
+        "Quellen": [
+          "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html"
+        ]
+      },
+      {
+        "Trend": "Hohe absolute Gesamtkosten bleiben Kaufhürde",
+        "Ring": "Trial",
+        "Beschreibung": "Trotz stabilerer Preisentwicklung bleibt das Fertighaus ein kapitalintensives Produkt. Hauspreise, Baunebenkosten und Gesamtkosten liegen deutlich über symbolisch wichtigen Schwellen. Das beeinflusst Nachfrage, Conversion und Zielgruppensegmentierung.",
+        "Begründung": "Die Hürde ist stark marktprägend, aber ihre Wirkung hängt von Zielgruppe, Ausstattung und Finanzierungskontext ab.",
+        "Signale": [
+          "Hauspreis 360.000–460.000 Euro. [https://www.fertig-haus.net/fertighaus-preise]",
+          "Gesamtkosten 600.000–760.000 Euro. [https://www.fertig-haus.net/fertighaus-preise]",
+          "Baunebenkosten zusätzlich 15–20 Prozent. [https://www.fertig-haus.net/fertighaus-preise]",
+          "Durchschnittlicher Fertighaus-Preis beträgt etwa 450.000 Euro. [https://wohnglueck.de/artikel/fertighaus-anteil-deutschland-32541]",
+          "300.000 Euro gelten als magische Preisgrenze. [https://wohnglueck.de/artikel/fertighaus-anteil-deutschland-32541]"
+        ],
+        "Quellen": [
+          "https://www.fertig-haus.net/fertighaus-preise",
+          "https://wohnglueck.de/artikel/fertighaus-anteil-deutschland-32541"
+        ]
+      },
+      {
+        "Trend": "Stärkere Differenzierung nach Ausbaustufe und Preispositionierung",
+        "Ring": "Trial",
+        "Beschreibung": "Der Markt differenziert sich klarer in Bausatz-, ausbaufertige, schlüsselfertige und Premium-Angebote. Dadurch entstehen präzisere Preisanker und segmentierbare Angebotsarchitekturen für unterschiedliche Zielgruppen.",
+        "Begründung": "Das Muster ist klar erkennbar und operativ relevant, aber nicht als einheitlicher Branchenstandard belegt.",
+        "Signale": [
+          "Bausatzhaus ab 1.500 €/m². [https://www.fertig-haus.net/fertighaus-preise]",
+          "Ausbaufertig 2026: 2.100–2.600 €/m². [https://www.fertig-haus.net/fertighaus-preise]",
+          "2026 schlüsselfertig: 2.500–3.300 €/m². [https://www.fertig-haus.net/fertighaus-preise]",
+          "Premium 2026: 3.300–3.850 €/m². [https://www.fertig-haus.net/fertighaus-preise]",
+          "Aufpreis schlüsselfertig: etwa 20.000–120.000 €. [https://www.biobuilds.com/de/blog/prefab/cost]"
+        ],
+        "Quellen": [
+          "https://www.fertig-haus.net/fertighaus-preise",
+          "https://www.biobuilds.com/de/blog/prefab/cost"
+        ]
+      },
+      {
+        "Trend": "Förderfähigkeit als wirtschaftlicher Hebel",
+        "Ring": "Assess",
+        "Beschreibung": "Förderungen können die Wirtschaftlichkeit von Fertighäusern deutlich beeinflussen. Einzelne Preisübersichten nennen erhebliche Förderpotenziale pro Wohneinheit. Für Marktteilnehmer wird damit die Förderintegration zu einem relevanten Angebots- und Beratungselement.",
+        "Begründung": "Der Hebel ist potenziell groß, aber in den vorliegenden Informationen nicht breit mit realisierten Markteffekten unterlegt.",
+        "Signale": [
+          "Bis 270.000 Euro Förderung je Wohneinheit. [https://www.fertig-haus.net/fertighaus-preise]"
+        ],
+        "Quellen": [
+          "https://www.fertig-haus.net/fertighaus-preise"
+        ]
+      }
+    ]
+  },
+  {
+    "Quadrant": "Bauweise, Technologie & Nachhaltigkeit",
+    "Trends": [
+      {
+        "Trend": "Serielle Vorfertigung verkürzt Bau- und Montagezeiten",
+        "Ring": "Adopt",
+        "Beschreibung": "Die industrielle Vorfertigung ermöglicht sehr kurze Montagephasen auf der Baustelle und insgesamt kalkulierbare Bauzeiten. Das ist ein zentrales Wertversprechen des Fertighausmarkts und bereits breit im Markt verankert.",
+        "Begründung": "Die Zeitvorteile sind ein Kernelement des Geschäftsmodells und in mehreren Ausprägungen klar beschrieben.",
+        "Signale": [
+          "Hausbau dauert oft nur wenige Tage. [https://www.bauunternehmen.org/hersteller/fertighaeuser]",
+          "Gesamtbauzeit meist 9–12 Monate. [https://hausbaujournal.com/hausbau/fertighaus/]",
+          "Wandelemente-Aufstellung: 1–3 Tage. [https://hausbaujournal.com/hausbau/fertighaus/]",
+          "Bauzeit ab Bodenplatte: 6–9 Monate. [https://hausbaujournal.com/hausbau/fertighaus/]",
+          "SCANDI-Hausfertigung dauert etwa 35 Tage. [https://scandi.de/]"
+        ],
+        "Quellen": [
+          "https://www.bauunternehmen.org/hersteller/fertighaeuser",
+          "https://hausbaujournal.com/hausbau/fertighaus/",
+          "https://scandi.de/"
+        ]
+      },
+      {
+        "Trend": "Digitale Planung mit BIM und Virtual Reality",
+        "Ring": "Assess",
+        "Beschreibung": "Digitale Planung und Visualisierung werden als relevante Enabler für den Fertighausprozess sichtbar. BIM unterstützt vollständig digitale Planung, Virtual Reality die Visualisierung vor Baubeginn. Das stärkt Planbarkeit und Kundenerlebnis.",
+        "Begründung": "Die Technologien sind klar als relevant benannt, aber ihre Breitenanwendung im Markt ist in den vorliegenden Informationen nicht quantifiziert.",
+        "Signale": [
+          "BIM ermöglicht vollständig digitale Planung. [https://www.bauen.com/artikel/1/1/6893/hausbau/sind-fertighaeuser-die-zukunft-des-bauens/]",
+          "Virtual Reality zeigt Häuser vor Baubeginn. [https://www.bauen.com/artikel/1/1/6893/hausbau/sind-fertighaeuser-die-zukunft-des-bauens/]"
+        ],
+        "Quellen": [
+          "https://www.bauen.com/artikel/1/1/6893/hausbau/sind-fertighaeuser-die-zukunft-des-bauens/"
+        ]
+      },
+      {
+        "Trend": "Energieeffiziente und materialorientierte Nachhaltigkeitsversprechen",
+        "Ring": "Trial",
+        "Beschreibung": "Nachhaltigkeit wird über Passivhausstandard, sehr niedrigen Heizwärmebedarf, natürliche Materialien, Rezyklierbarkeit und Holzherkunft als zentrales Differenzierungsmerkmal ausgebaut. Das deutet auf eine wachsende Relevanz nachhaltiger Produktargumentation im Markt hin.",
+        "Begründung": "Die Signale sind konkret und marktnah, stammen aber vor allem aus Anbieterbeispielen statt aus flächendeckender Branchenmessung.",
+        "Signale": [
+          "BIOBUILDS nutzt Passivhaus-Standard PHI Darmstadt. [https://www.biobuilds.com/de/kfw]",
+          "Heizwärmebedarf liegt bei höchstens 15 kWh/m²a. [https://www.biobuilds.com/de/kfw]",
+          "Energieverbrauch etwa 95% niedriger. [https://www.biobuilds.com/de/kfw]",
+          "BIOBUILDS verwendet über 98% natürliche Materialien. [https://www.biobuilds.com/de/kfw]",
+          "Marles: 64% der Materialien recycelbar. [https://www.marles.com/de-de]",
+          "Marles-Holz stammt aus 100% europäischen Wäldern. [https://www.marles.com/de-de]"
+        ],
+        "Quellen": [
+          "https://www.biobuilds.com/de/kfw",
+          "https://www.marles.com/de-de"
+        ]
+      },
+      {
+        "Trend": "Fertigbau bleibt stark auf Einfamilienhaussegmente fokussiert",
+        "Ring": "Hold",
+        "Beschreibung": "Der Markt zeigt weiterhin eine klare Dominanz des Einfamilienhaussegments. Das kann Skalierung in anderen Wohnsegmenten begrenzen und die Abhängigkeit von einem zyklischen Teilmarkt verstärken.",
+        "Begründung": "Die starke Segmentkonzentration ist sichtbar, aber als Wachstumsfeld außerhalb des Kerngeschäfts noch nicht ausreichend aufgebrochen.",
+        "Signale": [
+          "Einfamilienhäuser stellten 86,0 Prozent davon. [https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2023/PD23_24_p002.html]",
+          "Einfamilien-Fertighäuser 2024: 14.300 fertiggestellt. [https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html]",
+          "2025: Marktwert rund 907 Millionen Euro. [https://www.a3bau.at/fertighaus-markt-trotzt-wohnbaukrise]",
+          "Einfamilienhäuser dominieren mit 86,1 Prozent. [https://www.a3bau.at/fertighaus-markt-trotzt-wohnbaukrise]"
+        ],
+        "Quellen": [
+          "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2023/PD23_24_p002.html",
+          "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_N039_31.html",
+          "https://www.a3bau.at/fertighaus-markt-trotzt-wohnbaukrise"
+        ]
+      }
+    ]
+  },
+  {
+    "Quadrant": "Industrie, Regulierung & Wettbewerbsstruktur",
+    "Trends": [
+      {
+        "Trend": "Qualitäts- und Prüfstandards als Vertrauensinfrastruktur",
+        "Ring": "Adopt",
+        "Beschreibung": "Qualitätssicherung ist institutionell stark verankert. QDF-Richtlinien, jährliche Qualitätsprüfungen und Prüfmechanismen entlang von Bauteilen, Herstellung und Montage bilden eine etablierte Vertrauensbasis für den Markt.",
+        "Begründung": "Die Strukturen sind vorhanden, organisiert und wiederkehrend angewendet; sie gehören damit zum operativen Standard.",
+        "Signale": [
+          "QDF entstand 1989 als Qualitätsgemeinschaft Deutscher Fertigbau. [https://www.streif.de/bauen/ausgezeichnete-qualitaet]",
+          "QDF-Richtlinien wurden zum 01. Januar 2022 aktualisiert. [https://www.streif.de/bauen/ausgezeichnete-qualitaet]",
+          "BDF-Mitglieder jährlich qualitätsgeprüft. [https://tc-mv.tc.de/haus/hausbau-mit-town-country-haus/der-umfassende-hausbau-ratgeber-fuer-alle-wichtigen-fragen/haustypen/fertighaus-ratgeber-das-sollten-sie-wissen/fertighaus-rund-ums-fertighaus]",
+          "QDF kontrolliert Bauteile, Herstellung und Montage. [https://tc-mv.tc.de/haus/hausbau-mit-town-country-haus/der-umfassende-hausbau-ratgeber-fuer-alle-wichtigen-fragen/haustypen/fertighaus-ratgeber-das-sollten-sie-wissen/fertighaus-rund-ums-fertighaus]"
+        ],
+        "Quellen": [
+          "https://www.streif.de/bauen/ausgezeichnete-qualitaet",
+          "https://tc-mv.tc.de/haus/hausbau-mit-town-country-haus/der-umfassende-hausbau-ratgeber-fuer-alle-wichtigen-fragen/haustypen/fertighaus-ratgeber-das-sollten-sie-wissen/fertighaus-rund-ums-fertighaus"
+        ]
+      },
+      {
+        "Trend": "Typgenehmigungen und standardisierte Genehmigungspfade gewinnen an Bedeutung",
+        "Ring": "Trial",
+        "Beschreibung": "Einzelne Bundesländer schaffen zusätzliche Genehmigungswege für Typ-Fertighäuser. Das deutet auf regulatorische Anpassungen hin, die standardisierte Produkte begünstigen und Skalierung erleichtern können.",
+        "Begründung": "Die Entwicklung ist konkret, aber bislang nur in ausgewählten Ländern sichtbar und damit noch nicht flächendeckend etabliert.",
+        "Signale": [
+          "Niedersachsen: extra Genehmigungen für Typ-Fertighäuser. [https://www.rundschau-online.de/wirtschaft/immobilien-fertighausbranche-in-deutschland-in-der-krise-847542]",
+          "Hessen: extra Genehmigungen für Typ-Fertighäuser. [https://www.rundschau-online.de/wirtschaft/immobilien-fertighausbranche-in-deutschland-in-der-krise-847542]",
+          "Saarland: extra Genehmigungen für Typ-Fertighäuser. [https://www.rundschau-online.de/wirtschaft/immobilien-fertighausbranche-in-deutschland-in-der-krise-847542]"
+        ],
+        "Quellen": [
+          "https://www.rundschau-online.de/wirtschaft/immobilien-fertighausbranche-in-deutschland-in-der-krise-847542"
+        ]
+      },
+      {
+        "Trend": "Konsolidierte Herstellerlandschaft mit leistungsfähigen Markenverbünden",
+        "Ring": "Adopt",
+        "Beschreibung": "Der Markt wird von etablierten Herstellern, Markenverbünden und langjährigen Unternehmen geprägt. Produktionsvolumen, Umsatzgrößen und historisch gewachsene Marken stärken Skalierung, Vertrieb und Vertrauen.",
+        "Begründung": "Die Wettbewerbsstruktur ist klar etabliert und prägt den Marktzugang bereits heute direkt.",
+        "Signale": [
+          "Bundesverband Deutscher Fertigbau umfasst rund 50 Hersteller. [https://www.fertighaus.de/beste-fertighausanbieter]",
+          "Rund 50 größere Fertighausanbieter wählbar. [https://www.fertighauswelt.de/anbieter]",
+          "Deutsche Fertighaus Holding produziert bis zu 80 Eigenheime wöchentlich. [https://www.capital.de/immobilien/immobilien-fertighaus-kompass]",
+          "Finger Haus: rund 250 Millionen Euro Umsatz. [https://www.faz.net/aktuell/wirtschaft/unternehmen/fertighaus-branche-aechzt-praesident-schaefer-ueber-den-frust-der-bauer-19552363.html]",
+          "massa haus: 1.540 Mitarbeiter. [https://www.fertighaus.de]"
+        ],
+        "Quellen": [
+          "https://www.fertighaus.de/beste-fertighausanbieter",
+          "https://www.fertighauswelt.de/anbieter",
+          "https://www.capital.de/immobilien/immobilien-fertighaus-kompass",
+          "https://www.faz.net/aktuell/wirtschaft/unternehmen/fertighaus-branche-aechzt-praesident-schaefer-ueber-den-frust-der-bauer-19552363.html",
+          "https://www.fertighaus.de"
+        ]
+      },
+      {
+        "Trend": "Regulatorische und arbeitskostenseitige Belastungen gefährden Skalierung",
+        "Ring": "Hold",
+        "Beschreibung": "Zusätzliche Belastungen durch den Gefahrentarif 4 erhöhen die Kostenbasis der Fertigbaubetriebe deutlich. Geplante Klagen und genannte Mehrkosten deuten auf ein relevantes Risiko für Beschäftigung und Wettbewerbsfähigkeit hin.",
+        "Begründung": "Das Signal ist negativ für Skalierung und Profitabilität und sollte beobachtet beziehungsweise vermieden werden, bis sich die Rahmenbedingungen klären.",
+        "Signale": [
+          "Gefahrentarif 4 belastet Fertigbaubetriebe zusätzlich. [https://hasepost.de/fertighauspreise-stabilisieren-sich-branche-warnt-vor-mehrkosten-664697/]",
+          "Rund 1.000 Euro Mehrkosten pro Mitarbeitendem jährlich. [https://hasepost.de/fertighauspreise-stabilisieren-sich-branche-warnt-vor-mehrkosten-664697/]",
+          "Rund 100 Millionen Euro Zusatzkosten in fünf Jahren. [https://hasepost.de/fertighauspreise-stabilisieren-sich-branche-warnt-vor-mehrkosten-664697/]",
+          "70 Unternehmen planen rechtliche Klagen. [https://hasepost.de/fertighauspreise-stabilisieren-sich-branche-warnt-vor-mehrkosten-664697/]",
+          "2025: Beschäftigung etwa 10 % gesunken. [https://hasepost.de/fertighauspreise-stabilisieren-sich-branche-warnt-vor-mehrkosten-664697/]"
+        ],
+        "Quellen": [
+          "https://hasepost.de/fertighauspreise-stabilisieren-sich-branche-warnt-vor-mehrkosten-664697/"
+        ]
+      }
+    ]
+  }
+]

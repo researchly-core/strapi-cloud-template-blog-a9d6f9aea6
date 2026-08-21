@@ -9,6 +9,7 @@
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "seed:case-study": "node ./scripts/seed-case-study.js",
+    "populate:trend-radar": "node ./scripts/populate-trend-radar.js",
     "start": "strapi start",
     "strapi": "strapi"
   },

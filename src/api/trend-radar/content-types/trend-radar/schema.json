@@ -101,6 +101,24 @@
         }
       }
     },
+    "MidCTA": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.cta",
+      "repeatable": false
+    },
+    "body_after": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "FAQ": {
       "type": "component",
       "pluginOptions": {
